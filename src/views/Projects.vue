@@ -28,7 +28,7 @@ export default {
 }
 
 .p-button.p-button-text {
-    color: greenyellow;
+    color: rgb(0, 155, 0);
 }
 
 .p-card .p-card-title {
