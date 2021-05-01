@@ -75,7 +75,7 @@ export default {
             },
             {
                 what: "Advanced Java Development & RDBMS",
-                where: "https://www.formacion.ipartek.com/",
+                where: "https://www.ipartek.com/",
                 date: "2020-2021",
                 icon: "pi pi-desktop",
                 color: "#333",
