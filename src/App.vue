@@ -1,30 +1,51 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+    <div class="page p-col-12 p-sm-12 p-md-11">
+        <router-view />
+        <scroll-top />
+    </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+    background: black;
+    margin: 0;
 }
 
-#nav {
-  padding: 30px;
+a:link,
+a:visited,
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+a:hover {
+    color: rgb(255, 201, 101);
+    background-color: transparent;
+    text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+ul {
+    list-style: none;
+    padding-left: 1rem;
+    padding-top: 0;
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+li {
+    color: orange;
+}
+
+.p-sidebar .p-sidebar-close {
+    display: none;
+}
+
+.p-scrolltop {
+    background: orange !important;
+}
+
+.page {
+    margin: auto;
 }
 </style>

@@ -1,0 +1,83 @@
+<template>
+    <Header />
+    <full-timeline />
+</template>
+
+<script>
+import Header from "@/header/Header.vue";
+import FullTimeline from "@/components/FullTimeline.vue";
+
+export default {
+    components: {
+        Header,
+        FullTimeline
+    }
+};
+</script>
+
+<style>
+.fieldsetHover {
+    transition: transform 0.3s ease;
+    transform: scale3d(1, 1, 1);
+}
+
+.fieldsetHover:hover {
+    transform: scale3d(1.03, 1.03, 1.03);
+}
+
+.linkHover {
+    transition: transform 0.3s ease;
+    transform: scale(1, 1);
+}
+
+.linkHover:hover {
+    transform: scale(1.015, 1);
+}
+
+.p-fieldset .p-fieldset-legend {
+    color: green;
+}
+
+.p-fieldset .p-fieldset-content {
+    padding: 0;
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+    color: green;
+}
+
+.p-accordion
+    .p-accordion-header:not(.p-disabled).p-highlight
+    .p-accordion-header-link {
+    background: orange;
+    border-color: orange;
+}
+
+.accordionText {
+    color: orange;
+}
+
+.custom-marker {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 960px) {
+    .p-timeline-event:nth-child(even) {
+        flex-direction: row !important;
+    }
+    .p-timeline-event-content {
+        text-align: left !important;
+    }
+
+    .p-timeline-event-opposite {
+        flex: 0;
+    }
+}
+</style>
