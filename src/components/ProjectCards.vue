@@ -1,7 +1,7 @@
 <template>
     <div class="p-grid">
         <Card
-            class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__zoomInDown"
+            class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
             style="width: 25rem"
             v-for="project in projects"
             :key="project.name"
