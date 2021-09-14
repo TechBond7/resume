@@ -20,7 +20,7 @@
             </h2>
             <div class="social">
                 <a
-                    href="https://github.com/alexcg1986"
+                    href="https://github.com/mezdelex"
                     class="pi socialLink pi-github p-mr-2"
                     style="fontSize: 2rem"
                 />
