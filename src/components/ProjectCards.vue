@@ -52,7 +52,7 @@ export default defineComponent({
             {
                 name: "Résumé",
                 image: require("@/assets/resume.jpg"),
-                repo: "https://github.com/alexcg1986/Resume",
+                repo: "https://github.com/mezdelex/Resume",
                 app: "https://acgresume.netlify.app/",
                 description:
                     "VueJS 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code."
@@ -60,7 +60,7 @@ export default defineComponent({
             {
                 name: "Recetario SPA",
                 image: require("@/assets/recetario.jpg"),
-                repo: "https://github.com/alexcg1986/Recetario-SPA",
+                repo: "https://github.com/mezdelex/Recetario-SPA",
                 app: "https://spa-recetario.netlify.app/",
                 description:
                     "VueJS 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot."
@@ -68,7 +68,7 @@ export default defineComponent({
             {
                 name: "Recetario RESTful API",
                 image: require("@/assets/recetario2.jpg"),
-                repo: "https://github.com/alexcg1986/Recetario-RESTful-API",
+                repo: "https://github.com/mezdelex/Recetario-RESTful-API",
                 app: "https://db-recetario.herokuapp.com/api/plato/",
                 description:
                     "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, etc. MySQL DB is hosted by Heroku's JawsDB service. In this project I also learned how to use dockerfile, docker-compose and YAML formatting. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot."
@@ -76,8 +76,8 @@ export default defineComponent({
             {
                 name: "Trivia",
                 image: require("@/assets/trivia.jpg"),
-                repo: "https://github.com/alexcg1986/Trivia",
-                app: "https://alexcg1986.github.io/Trivia/trivial_main.html",
+                repo: "https://github.com/mezdelex/Trivia",
+                app: "https://mezdelex.github.io/Trivia/trivial_main.html",
                 description:
                     "My first app done with Javascript, HTML and CSS consuming an external API that requires token authorization to be accessed. Coded with VS Code."
             }
