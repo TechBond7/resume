@@ -70,7 +70,7 @@ export default {
                 icon: "pi pi-desktop",
                 color: "#333",
                 skills:
-                    "Python, Vue, TDD, Clean Code, SOLID..."
+                    "Python, Vue, TDD, Clean Code, SOLID...",
                 activity: "Full Stack Development"
             },
             {
