@@ -71,6 +71,7 @@ export default {
                 color: "#333",
                 skills:
                     "Python, Vue, TDD, Clean Code, SOLID..."
+                activity: "Full Stack Development"
             },
             {
                 what: "Self Taught",
@@ -79,7 +80,7 @@ export default {
                 icon: "pi pi-desktop",
                 color: "#333",
                 skills:
-                    "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2.5.0, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle 7+, RESTful API, Javascript ES6, VueJS 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
+                    "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2.5.0, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle 7+, RESTful API, Javascript ES6, PHP8, VueJS 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
                 activity: "Full Stack Development"
             },
             {
