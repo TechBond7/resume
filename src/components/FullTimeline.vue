@@ -64,6 +64,15 @@ export default {
         const counter = 0;
         const events = ref([
             {
+                what: "Bootcamp WebDev Full Stack",
+                where: "https://www.peñascalf5.org/",
+                date: "Coming soon...",
+                icon: "pi pi-desktop",
+                color: "#333",
+                skills:
+                    "Python, Vue, TDD, Clean Code, SOLID..."
+            },
+            {
                 what: "Self Taught",
                 where: "https://acgresume.netlify.app/",
                 date: "2021-Present",
