@@ -36,10 +36,10 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, defineComponent } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
 
-export default {
+export default defineComponent({
   components: {
     RightSidebar,
   },
@@ -47,7 +47,7 @@ export default {
     const showSidebar = ref(false);
     return { showSidebar };
   },
-};
+});
 </script>
 
 <style>
