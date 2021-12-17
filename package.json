@@ -12,7 +12,7 @@
     "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
     "primevue": "^3.3.5",
-    "vue": "^3.0.0",
+    "vue": "^3.2.26",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {

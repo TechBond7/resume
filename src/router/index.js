@@ -1,7 +1,9 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import {
+    createRouter,
+    createWebHashHistory
+} from "vue-router";
 
-const routes = [
-    {
+const routes = [{
         path: "/",
         component: () => import("@/views/Timeline.vue")
     },

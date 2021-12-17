@@ -1,4 +1,6 @@
-import { createApp } from "vue";
+import {
+    createApp
+} from "vue";
 import App from "@/App.vue";
 import router from "@/router";
 import PrimeVue from "primevue/config";
@@ -19,7 +21,9 @@ import "animate.css";
 
 createApp(App)
     .use(router)
-    .use(PrimeVue, { ripple: true })
+    .use(PrimeVue, {
+        ripple: true
+    })
     .component("Timeline", Timeline)
     .component("Card", Card)
     .component("Sidebar", Sidebar)
