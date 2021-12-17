@@ -14,9 +14,9 @@
       <div
         :class="{
           'animate__animated animate__faster animate__fadeInLeft':
-            counter % 2 === 0,
+            counter % 2 !== 0,
           'animate__animated animate__faster animate__fadeInRight':
-            counter++ % 2 !== 0,
+            counter++ % 2 === 0,
         }"
       >
         <Fieldset class="fieldsetHover" :legend="slotProps.item.what">
@@ -56,7 +56,7 @@ export default defineComponent({
   setup() {
     const hasUrl = (value) => value.includes("https");
     const color = ref("#333");
-    const counter = ref(0);
+    const counter = 0;
     const events = ref([
       {
         what: "D&A Innovative Systems",
