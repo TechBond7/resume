@@ -18,7 +18,11 @@
               {{ slotProps.item.date }}
             </li>
             <li class="linkHover" v-if="hasUrl(slotProps.item.where)">
-              <a :href="slotProps.item.where" :alt="slotProps.item.where">
+              <a
+                :href="slotProps.item.where"
+                :alt="slotProps.item.where"
+                target="_"
+              >
                 {{ slotProps.item.where }}
               </a>
             </li>

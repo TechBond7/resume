@@ -25,15 +25,6 @@ export default {
   transform: scale3d(1.03, 1.03, 1.03);
 }
 
-.linkHover {
-  transition: transform 0.3s ease;
-  transform: scale(1, 1);
-}
-
-.linkHover:hover {
-  transform: scale(1.015, 1);
-}
-
 .p-fieldset .p-fieldset-legend {
   color: green;
 }
