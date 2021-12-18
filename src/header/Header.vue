@@ -22,12 +22,10 @@
         <a
           href="https://github.com/mezdelex"
           class="pi socialLink pi-github p-mr-2"
-          style="fontsize: 2rem"
         />
         <a
           href="mailto:alexcondegomez@gmail.com"
           class="pi socialLink pi-send"
-          style="fontsize: 2rem"
         />
       </div>
     </div>
@@ -63,6 +61,10 @@ export default defineComponent({
 .social {
   margin: 1rem;
   margin-bottom: 0;
+}
+
+.social > .pi {
+  font-size: 2rem;
 }
 
 .cBraces {
