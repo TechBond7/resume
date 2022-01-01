@@ -1,5 +1,5 @@
 <template>
-  <Timeline :value="events" align="alternate">
+  <Timeline :value="data" align="alternate">
     <template #marker="slotProps">
       <div class="animate__animated animate__faster animate__fadeInUp">
         <span
@@ -53,7 +53,7 @@ export default defineComponent({
   setup() {
     let counter = 0;
     const color = ref("#333");
-    const events = ref([
+    const data = ref([
       {
         what: "D&A Innovative Systems",
         where: "https://www.innovative-systems.es/",
@@ -151,7 +151,7 @@ export default defineComponent({
         ? "animate__animated animate__faster animate__fadeInLeft"
         : "animate__animated animate__faster animate__fadeInRight";
     };
-    return { events, counter, hasUrl, conditionalFade };
+    return { data, hasUrl, conditionalFade };
   },
 });
 </script>
