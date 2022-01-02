@@ -27,14 +27,14 @@
       </template>
       <template #footer>
         <div class="p-d-flex p-flex-row p-jc-around p-ai-end">
-          <a :href="project.repo">
+          <a :href="project.repo" target="_">
             <Button
               label="Repo"
               icon="pi pi-external-link"
               class="buttonHover p-button p-button-text"
             />
           </a>
-          <a :href="project.app" :alt="project.app">
+          <a :href="project.app" :alt="project.app" target="_">
             <Button
               label="App"
               icon="pi pi-external-link"
@@ -53,12 +53,20 @@ export default defineComponent({
   setup() {
     const projects = ref([
       {
-        name: "Résumé",
+        name: "Resume",
         image: require("@/assets/resume.jpg"),
         repo: "https://github.com/mezdelex/Resume",
         app: "https://acgresume.netlify.app/",
         description:
           "VueJS 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code.",
+      },
+      {
+        name: "Concesionario",
+        image: require("@/assets/concesionario.jpg"),
+        repo: "https://github.com/mezdelex/Concesionario-SPA",
+        app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex/",
+        description:
+          "Technical test using Spring Boot 2.4.5, VueJS 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the \"App\" link it's a YouTube demo.",
       },
       {
         name: "Recetario SPA",
