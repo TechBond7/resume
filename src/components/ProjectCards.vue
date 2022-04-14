@@ -5,7 +5,7 @@
         p-mb-auto p-mt-5 p-mx-auto
         animate__animated animate__faster animate__fadeInUp
       "
-      style="width: 25rem"
+      style="width: 25rem; height: 36rem"
       v-for="project in projects"
       :key="project.name"
     >
@@ -23,7 +23,9 @@
         {{ project.name }}
       </template>
       <template #content>
-        {{ project.description }}
+        <div style="height: 12rem">
+          {{ project.description }}
+        </div>
       </template>
       <template #footer>
         <div class="p-d-flex p-flex-row p-jc-around p-ai-end">
@@ -90,7 +92,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/Trivia",
         app: "https://mezdelex.github.io/Trivia/trivial_main.html",
         description:
-          "My first app done with Javascript, HTML and CSS consuming an external API that requires token authorization to be accessed. Coded with VS Code.",
+          "My first Web App back in 2020 done with Javascript, HTML, CSS and Bootstrap consuming an external Trivia API that required token authorization to be accessed. Coded with VS Code.",
       },
     ]);
     return { projects };
