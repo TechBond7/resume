@@ -44,8 +44,4 @@ export default {
   padding: 0;
   color: orange;
 }
-
-.p-card-footer {
-  margin-top: auto;
-}
 </style>
