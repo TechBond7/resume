@@ -1,16 +1,16 @@
 <template>
   <Header />
-  <full-timeline />
+  <component-timeline />
 </template>
 
 <script>
 import Header from "@/header/Header.vue";
-import FullTimeline from "@/components/FullTimeline.vue";
+import ComponentTimeline from "@/components/ComponentTimeline.vue";
 
 export default {
   components: {
     Header,
-    FullTimeline,
+    ComponentTimeline,
   },
 };
 </script>

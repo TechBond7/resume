@@ -1,16 +1,16 @@
 <template>
   <Header />
-  <project-cards />
+  <component-cards />
 </template>
 
 <script>
 import Header from "@/header/Header.vue";
-import ProjectCards from "@/components/ProjectCards.vue";
+import ComponentCards from "@/components/ComponentCards.vue";
 
 export default {
   components: {
     Header,
-    ProjectCards,
+    ComponentCards,
   },
 };
 </script>
