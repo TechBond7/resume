@@ -55,10 +55,18 @@ export default defineComponent({
   setup() {
     const projects = ref([
       {
+        name: "LeetCode",
+        image: require("@/assets/leetcode.png"),
+        repo: "https://github.com/mezdelex/LeetCode",
+        app: "https://leetcode.com/mezdelex",
+        description:
+          "A recently started journey in algorithmic problem solving to achieve C++ language proficiency. Using VS Code as IDE as always.",
+      },
+      {
         name: "Resume",
         image: require("@/assets/resume.jpg"),
         repo: "https://github.com/mezdelex/Resume",
-        app: "https://acgresume.netlify.app/",
+        app: "https://acgresume.netlify.app",
         description:
           "VueJS 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code.",
       },
@@ -66,7 +74,7 @@ export default defineComponent({
         name: "Concesionario",
         image: require("@/assets/concesionario.jpg"),
         repo: "https://github.com/mezdelex/Concesionario-SPA",
-        app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex/",
+        app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex",
         description:
           "Technical test using Spring Boot 2.4.5, VueJS 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the \"App\" link it's a YouTube demo.",
       },
@@ -74,7 +82,7 @@ export default defineComponent({
         name: "Recetario SPA",
         image: require("@/assets/recetario.jpg"),
         repo: "https://github.com/mezdelex/Recetario-SPA",
-        app: "https://spa-recetario.netlify.app/",
+        app: "https://spa-recetario.netlify.app",
         description:
           "VueJS 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
       },
@@ -82,9 +90,25 @@ export default defineComponent({
         name: "Recetario RESTful API",
         image: require("@/assets/recetario2.jpg"),
         repo: "https://github.com/mezdelex/Recetario-RESTful-API",
-        app: "https://db-recetario.herokuapp.com/api/plato/",
+        app: "https://db-recetario.herokuapp.com/api/plato",
         description:
           "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, etc. MySQL DB is hosted by Heroku's JawsDB service. In this project I also learned how to use dockerfile, docker-compose and YAML formatting. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+      },
+      {
+        name: "Advent of Code (2020)",
+        image: require("@/assets/advent_of_code.png"),
+        repo: "https://github.com/mezdelex/AoC2020",
+        app: "https://adventofcode.com/2020",
+        description:
+          "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Used VS Code as IDE.",
+      },
+      {
+        name: "HackerRank",
+        image: require("@/assets/hackerrank.png"),
+        repo: "https://github.com/mezdelex/HackerRank",
+        app: "https://www.hackerrank.com/alexcondegomez",
+        description:
+          "Algorithmic problem solving to achieve Java's JDK 11+ language proficiency in both imperative and declarative paradigms. Used VS Code as IDE.",
       },
       {
         name: "Trivia",
