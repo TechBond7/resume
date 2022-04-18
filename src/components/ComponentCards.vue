@@ -76,7 +76,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/Concesionario-SPA",
         app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex",
         description:
-          "Technical test using Spring Boot 2.4.5, VueJS 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the \"App\" link it's a YouTube demo.",
+          "Technical test using Spring Boot 2.4.5, VueJS 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the link it's a YouTube demo.",
       },
       {
         name: "Recetario SPA",
