@@ -38,7 +38,7 @@
           </a>
           <a :href="project.app" :alt="project.app" target="_">
             <Button
-              label="App"
+              label="Link"
               icon="pi pi-external-link"
               class="buttonHover p-button p-button-text"
             />
