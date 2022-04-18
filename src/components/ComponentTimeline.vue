@@ -66,7 +66,7 @@ export default defineComponent({
       },
       {
         what: "Self Taught",
-        where: "https://acgresume.netlify.app/",
+        where: "https://mezdelex.netlify.app/",
         date: "2021-Present",
         icon: "pi pi-desktop",
         color: color.value,
