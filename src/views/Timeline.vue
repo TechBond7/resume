@@ -1,16 +1,19 @@
 <template>
   <Header />
   <component-timeline />
+  <Footer />
 </template>
 
 <script>
 import Header from "@/header/Header.vue";
 import ComponentTimeline from "@/components/ComponentTimeline.vue";
+import Footer from "@/footer/Footer.vue";
 
 export default {
   components: {
     Header,
     ComponentTimeline,
+    Footer,
   },
 };
 </script>

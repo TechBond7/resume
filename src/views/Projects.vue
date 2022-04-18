@@ -1,16 +1,19 @@
 <template>
   <Header />
   <component-cards />
+  <Footer />
 </template>
 
 <script>
 import Header from "@/header/Header.vue";
 import ComponentCards from "@/components/ComponentCards.vue";
+import Footer from "@/footer/Footer.vue";
 
 export default {
   components: {
     Header,
     ComponentCards,
+    Footer,
   },
 };
 </script>
