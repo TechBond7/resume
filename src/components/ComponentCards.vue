@@ -10,7 +10,7 @@
       :key="project.name"
     >
       <template #header>
-        <a :href="project.app">
+        <a :href="project.app" target="_">
           <img
             class="cardHover"
             :src="project.image"
@@ -60,7 +60,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/LeetCode",
         app: "https://leetcode.com/mezdelex",
         description:
-          "A recently started journey in algorithmic problem solving to achieve C++ language proficiency. Using VS Code as IDE as always.",
+          "A journey started in April 2022 to keep algorithmic problem solving fresh and eventually learn new laguages like Rust or Go while I improve my expertise with C++. Using VS Code as IDE as always.",
       },
       {
         name: "Resume",
