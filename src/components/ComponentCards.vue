@@ -66,7 +66,7 @@ export default defineComponent({
         name: "Resume",
         image: require("@/assets/resume.jpg"),
         repo: "https://github.com/mezdelex/Resume",
-        app: "https://mezdelex.netlify.app",
+        app: "https://www.mezdelex.com",
         description:
           "VueJS 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code.",
       },
