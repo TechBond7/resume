@@ -61,7 +61,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Python, C++, HTML, CSS, Javascript, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded...",
+          "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded, Bug Fixing, Time & Task Management...",
         activity: "Full Stack Development",
       },
       {
