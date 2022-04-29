@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+.p-fieldset {
+  border-radius: 0.5rem;
+}
+
 .fieldsetHover {
   transition: transform 0.3s ease;
   transform: scale3d(1, 1, 1);
@@ -30,6 +34,7 @@ export default {
 
 .p-fieldset .p-fieldset-legend {
   color: green;
+  border-radius: 0.5rem;
 }
 
 .p-fieldset .p-fieldset-content {
@@ -58,7 +63,9 @@ export default {
   align-items: center;
   justify-content: center;
   color: orange;
-  border-radius: 50%;
+  border-radius: 1rem;
+  padding-left: 0.1rem;
+  padding-top: 0.1rem;
   z-index: 1;
 }
 

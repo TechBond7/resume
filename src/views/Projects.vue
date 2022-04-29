@@ -34,6 +34,15 @@ export default {
   color: rgb(0, 155, 0);
 }
 
+.p-card-header img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.p-card {
+  border-radius: 0.5rem;
+}
+
 .p-card .p-card-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -41,6 +50,7 @@ export default {
   background: rgba(128, 128, 128, 0.185);
   padding-bottom: 0.3rem;
   color: green;
+  border-radius: 0.5rem;
 }
 
 .p-card .p-card-content {

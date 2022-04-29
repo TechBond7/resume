@@ -33,4 +33,8 @@ export default {
 .sidebarBG {
   background-color: black;
 }
+
+.p-button.p-button-icon-only {
+  border-radius: 0.5rem;
+}
 </style>
