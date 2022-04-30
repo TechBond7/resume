@@ -92,7 +92,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/Recetario-RESTful-API",
         app: "https://db-recetario.herokuapp.com/api/plato",
         description:
-          "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, etc. MySQL DB is hosted by Heroku's JawsDB service. In this project I also learned how to use dockerfile, docker-compose and YAML formatting. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+          "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, dockerfile, docker-compose, YAML formatting, etc. MySQL DB is hosted by Heroku's JawsDB service. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
       },
       {
         name: "Advent of Code (2020)",
