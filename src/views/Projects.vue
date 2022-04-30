@@ -55,6 +55,7 @@ export default {
 
 .p-card .p-card-content {
   padding: 0;
+  margin-inline: 0.5rem;
   color: orange;
 }
 </style>
