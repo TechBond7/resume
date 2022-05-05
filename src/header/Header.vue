@@ -20,6 +20,10 @@
       </h2>
       <div class="social">
         <a
+          href="https://www.linkedin.com/in/mezdelex/"
+          class="pi socialLink pi-briefcase p-mr-2"
+        />
+        <a
           href="https://github.com/mezdelex"
           class="pi socialLink pi-github p-mr-2"
         />
