@@ -91,7 +91,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MS SQL Server, MSSM, Rest API, JWT, MVC Insomnia/Postman, JSON...",
+          "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MS SQL Server, MSSM, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
         activity: "Full Stack Development",
       },
       {
