@@ -55,6 +55,16 @@ export default defineComponent({
     const color = ref("#333");
     const data = ref([
       {
+        what: "Self Taught",
+        where: "https://www.mezdelex.com/",
+        date: "2021-Present",
+        icon: "pi pi-desktop",
+        color: color.value,
+        skills:
+          "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2+, C# 10, .NET 6, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, xUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, PHP8+, Laragon, VueJS 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
+        activity: "Full Stack Development",
+      },
+      {
         what: "D&A Innovative Systems",
         where: "https://www.innovative-systems.es/",
         date: "2021-Present",
@@ -62,16 +72,6 @@ export default defineComponent({
         color: color.value,
         skills:
           "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded, Bug Fixing, Time & Task Management...",
-        activity: "Full Stack Development",
-      },
-      {
-        what: "Self Taught",
-        where: "https://www.mezdelex.com/",
-        date: "2021-Present",
-        icon: "pi pi-desktop",
-        color: color.value,
-        skills:
-          "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2.5.0, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle 7+, RESTful API, Javascript ES6, PHP8+, Laragon, VueJS 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
         activity: "Full Stack Development",
       },
       {
