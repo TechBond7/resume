@@ -61,7 +61,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2+, C# 10, .NET 6, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, xUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, PHP8+, Laragon, VueJS 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
+          "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2+, C# 10, .NET 6, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, xUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, PHP8+, React 18+, Fluent UI 8+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
         activity: "Full Stack Development",
       },
       {
