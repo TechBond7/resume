@@ -60,7 +60,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/Calculator",
         app: "https://calculator-mezdelex.netlify.app",
         description:
-          "A small project done with React 18 using hooks, functional components, context, context provider, props destructuring, child reserved word and kind of higher order component-ish approach to be able to reuse hook logic. Coded with VS Code.",
+          "A small project done with React 18 using hooks, functional components, context, context provider, props destructuring, child reserved word and kind of higher order component-ish approach to be able to reuse hook logic. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code.",
       },
       {
         name: "LeetCode",
