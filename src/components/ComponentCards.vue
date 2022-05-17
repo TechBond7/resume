@@ -55,6 +55,14 @@ export default defineComponent({
   setup() {
     const projects = ref([
       {
+        name: "Calculator",
+        image: require("@/assets/calculator.png"),
+        repo: "https://github.com/mezdelex/Calculator",
+        app: "https://calculator-mezdelex.netlify.app",
+        description:
+          "A small project done with React 18 using hooks, functional components, context, context provider, props destructuring, child reserved word and kind of higher order component-ish approach to be able to reuse hook logic. Coded with VS Code.",
+      },
+      {
         name: "LeetCode",
         image: require("@/assets/leetcode.png"),
         repo: "https://github.com/mezdelex/LeetCode",
