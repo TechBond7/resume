@@ -27,10 +27,6 @@
           href="https://github.com/mezdelex"
           class="pi socialLink pi-github p-mr-2"
         />
-        <a
-          href="mailto:alexcondegomez@gmail.com"
-          class="pi socialLink pi-send"
-        />
       </div>
     </div>
   </div>
