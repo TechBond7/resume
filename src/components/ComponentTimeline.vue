@@ -67,7 +67,7 @@ export default defineComponent({
       {
         what: "D&A Innovative Systems",
         where: "https://www.innovative-systems.es/",
-        date: "2021-Present",
+        date: "2021-2022",
         icon: "pi pi-desktop",
         color: color.value,
         skills:
