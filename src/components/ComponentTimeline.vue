@@ -66,7 +66,7 @@ export default defineComponent({
       },
       {
         what: "Ibermática",
-        where: "https://ibermatica.com/",
+        where: "https://www.ibermatica365.com/",
         date: "2022-Present",
         icon: "pi pi-desktop",
         color: color.value,
