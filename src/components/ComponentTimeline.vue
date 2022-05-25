@@ -65,7 +65,7 @@ export default defineComponent({
         activity: "Full Stack Development",
       },
       {
-        what: "Ibermática",
+        what: "Ibermática365",
         where: "https://www.ibermatica365.com/",
         date: "2022-Present",
         icon: "pi pi-desktop",
