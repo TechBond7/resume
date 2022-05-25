@@ -65,6 +65,15 @@ export default defineComponent({
         activity: "Full Stack Development",
       },
       {
+        what: "Ibermática",
+        where: "https://ibermatica.com/",
+        date: "2022-Present",
+        icon: "pi pi-desktop",
+        color: color.value,
+        skills: "Pending...",
+        activity: "Full Stack Development",
+      },
+      {
         what: "D&A Innovative Systems",
         where: "https://www.innovative-systems.es/",
         date: "2021-2022",
