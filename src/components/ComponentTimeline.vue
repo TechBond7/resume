@@ -70,7 +70,8 @@ export default defineComponent({
         date: "2022-Present",
         icon: "pi pi-desktop",
         color: color.value,
-        skills: "Pending...",
+        skills:
+          "Microsoft Dynamics 365 CRM, Power Apps, Power Automate, .Net 6, C#10, React 18, Fluent UI 8+...",
         activity: "Full Stack Development",
       },
       {
