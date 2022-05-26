@@ -71,7 +71,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Microsoft Dynamics 365 CRM, Power Apps, Power Automate, .Net 6, C#10, React 18, Fluent UI 8+...",
+          "Microsoft Dynamics 365 CRM, Power Platform, .Net 6, C#10, React 18, Fluent UI 8+...",
         activity: "Full Stack Development",
       },
       {
