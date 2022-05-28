@@ -27,7 +27,7 @@
           {{ project.description }}
         </div>
       </template>
-      <template #footer>
+      <template #footer v-if="project.repo">
         <div class="p-d-flex p-flex-row p-jc-around p-ai-end">
           <a :href="project.repo" target="_">
             <Button
@@ -54,6 +54,14 @@ import { ref, defineComponent } from "vue";
 export default defineComponent({
   setup() {
     const projects = ref([
+      {
+        name: "Touch Typing",
+        image: require("@/assets/monkeytype.png"),
+        repo: "",
+        app: "https://monkeytype.com/",
+        description:
+          "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 106 WPM with 100% accuracy @ monkeytype default values.",
+      },
       {
         name: "Calculator",
         image: require("@/assets/calculator.png"),
