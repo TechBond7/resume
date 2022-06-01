@@ -71,7 +71,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          ".Net 6, C#10, Xamarin, React 18, Microsoft Dynamics 365, Power Platform...",
+          ".NET 6, C#10, Xamarin, React 18, Microsoft Dynamics 365, Power Platform...",
         activity: "Full Stack Development",
       },
       {
