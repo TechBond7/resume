@@ -65,13 +65,13 @@ export default defineComponent({
         activity: "Full Stack Development",
       },
       {
-        what: "Ibermática365",
-        where: "https://www.ibermatica365.com/",
+        what: "Ibermática",
+        where: "https://www.ibermatica.com/",
         date: "2022-Present",
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Microsoft Dynamics 365 CRM, Power Platform, .Net 6, C#10, React 18, Fluent UI 8+...",
+          ".Net 6, C#10, Xamarin, React 18, Microsoft Dynamics 365, Power Platform...",
         activity: "Full Stack Development",
       },
       {
