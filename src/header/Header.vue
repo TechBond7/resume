@@ -10,13 +10,13 @@
     <div class="p-d-flex p-flex-column p-jc-around p-ai-center">
       <img class="selfie" :src="require('@/assets/alejandro.jpg')" />
       <h1 class="title">
-        <span class="cBraces">{</span>
-        Alex Conde Gómez
-        <span class="cBraces">}</span>
+        <span class="cBrackets">{</span>
+        Alejandro Conde Gómez
+        <span class="cBrackets">}</span>
       </h1>
       <h2 class="subTitle">
-        <span class="arroba">@</span>
-        <span class="fullstack">FullStackDeveloper</span>
+        <span class="at">@</span>
+        <span class="softwareDeveloper">SoftwareDeveloper</span>
       </h2>
       <div class="social">
         <a
@@ -67,15 +67,15 @@ export default defineComponent({
   font-size: 2rem;
 }
 
-.cBraces {
+.cBrackets {
   color: green;
 }
 
-.arroba {
+.at {
   color: palegoldenrod;
 }
 
-.fullstack {
+.softwareDeveloper {
   color: green;
 }
 

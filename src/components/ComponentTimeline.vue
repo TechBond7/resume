@@ -62,7 +62,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2+, C# 10, .NET 6, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, xUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, PHP8+, React 18+, Fluent UI 8+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, VS Code, Insomnia, Git, GitHub, Powershell Core, Windows Terminal...",
-        activity: "Full Stack Development",
+        activity: "Software developer",
       },
       {
         what: "Ibermática",
@@ -72,7 +72,7 @@ export default defineComponent({
         color: color.value,
         skills:
           ".NET 6, C#10, Xamarin, React 18, Microsoft Dynamics 365, Power Platform...",
-        activity: "Full Stack Development",
+        activity: "Software developer",
       },
       {
         what: "D&A Innovative Systems",
@@ -82,7 +82,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded, Bug Fixing, Time & Task Management...",
-        activity: "Full Stack Development",
+        activity: "Software developer",
       },
       {
         what: "Advanced Java Development & RDBMS",
@@ -92,7 +92,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, VS Code, Insomnia, JSP, Servlets, Git, MVC, JSON...",
-        activity: "Full Stack Development",
+        activity: "Software developer",
       },
       {
         what: "BBK Bootcamp Full Stack .NET Core",
@@ -102,7 +102,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MS SQL Server, MSSM, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
-        activity: "Full Stack Development",
+        activity: "Software developer",
       },
       {
         what: "IT Technician",
