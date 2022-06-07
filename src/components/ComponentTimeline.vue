@@ -61,8 +61,8 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Algorithms, Data Structures, Problem Solving, Java JDK 11+, Spring Boot 2+, C# 10, .NET 6, Xamarin, UNO Platform, Swagger UI, MVC, Hibernate, QueryDSL, HATEOAS, JUnit, xUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, PHP8+, React 18+, Fluent UI 8+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Vuex, Store, YAML, OAuth2, OpenID, JWT, Okta, Docker, Heroku, Netlify, CD, MySQL, MySQL Workbench, Visual Studio 2022,  Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Powershell Core, Windows Terminal...",
-        activity: "Software developer",
+          "Algorithms, Data Structures, Problem Solving, C#10, .NET 6, Xamarin.Forms, ¿.NET MAUI?, Swagger UI, xUnit, MVC, MVVM, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Powershell Core, Windows Terminal...",
+        activity: "Software development",
       },
       {
         what: "Ibermática",
@@ -71,8 +71,8 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          ".NET 6, C#10, Xamarin, UNO Platform, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Azure DevOps, Visual Studio 2022, Visual Studio Code...",
-        activity: "Software developer",
+          ".NET 6, C#10, Xamarin.Forms, ¿.NET MAUI?, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Windows Terminal, PowerShell Core, Visual Studio 2022, Visual Studio Code...",
+        activity: "Software development",
       },
       {
         what: "D&A Innovative Systems",
@@ -82,7 +82,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded, Bug Fixing, Time & Task Management...",
-        activity: "Software developer",
+        activity: "Software development",
       },
       {
         what: "Advanced Java Development & RDBMS",
@@ -92,7 +92,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, VS Code, Insomnia, JSP, Servlets, Git, MVC, JSON...",
-        activity: "Software developer",
+        activity: "Software development",
       },
       {
         what: "BBK Bootcamp Full Stack .NET Core",
@@ -102,7 +102,7 @@ export default defineComponent({
         color: color.value,
         skills:
           "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MS SQL Server, MSSM, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
-        activity: "Software developer",
+        activity: "Software development",
       },
       {
         what: "IT Technician",
