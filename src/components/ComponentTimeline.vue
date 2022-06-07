@@ -61,7 +61,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Algorithms, Data Structures, Problem Solving, C#10, .NET 6, Xamarin.Forms, ¿.NET MAUI?, Swagger UI, xUnit, MVC, MVVM, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Powershell Core, Windows Terminal...",
+          "Algorithms, Data Structures, Problem Solving, .NET 6, C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, xUnit, MVC, MVVM, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Windows Terminal, Powershell Core...",
         activity: "Software development",
       },
       {
@@ -71,7 +71,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          ".NET 6, C#10, Xamarin.Forms, ¿.NET MAUI?, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Windows Terminal, PowerShell Core, Visual Studio 2022, Visual Studio Code...",
+          ".NET 6, C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Windows Terminal, PowerShell Core, Visual Studio 2022, Visual Studio Code...",
         activity: "Software development",
       },
       {
