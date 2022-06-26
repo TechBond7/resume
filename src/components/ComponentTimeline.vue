@@ -2,10 +2,7 @@
   <Timeline :value="data" align="alternate">
     <template #marker="slotProps">
       <div class="animate__animated animate__faster animate__fadeInUp">
-        <span
-          class="custom-marker p-shadow-5"
-          :style="{ backgroundColor: slotProps.item.color }"
-        >
+        <span class="custom-marker p-shadow-5" :style="{ backgroundColor: slotProps.item.color }">
           <i :class="slotProps.item.icon"></i>
         </span>
       </div>
@@ -18,11 +15,7 @@
               {{ slotProps.item.date }}
             </li>
             <li class="linkHover" v-if="hasUrl(slotProps.item.where)">
-              <a
-                :href="slotProps.item.where"
-                :alt="slotProps.item.where"
-                target="_"
-              >
+              <a :href="slotProps.item.where" :alt="slotProps.item.where" target="_">
                 {{ slotProps.item.where }}
               </a>
             </li>
@@ -61,7 +54,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Algorithms, Data Structures, Problem Solving, .NET 6, C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, xUnit, MVC, MVVM, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Windows Terminal, Powershell Core...",
+          "Algorithms, Data Structures, Problem Solving, .NET 6, Entity Framework (Model/Code First), C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, xUnit, MVC, MVVM, DDD, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, Microsoft SQL Management Studio 2019, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Windows Terminal, Powershell Core...",
         activity: "Software development",
       },
       {
@@ -71,7 +64,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          ".NET 6, C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Windows Terminal, PowerShell Core, Visual Studio 2022, Visual Studio Code...",
+          ".NET 6, Entity Framework (Model/Code First), C#10, Xamarin.Forms, .NET MAUI?, Swagger UI, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Windows Terminal, PowerShell Core, Microsoft SQL Management Studio 2019, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
         activity: "Software development",
       },
       {
@@ -81,7 +74,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, MVC, Domain Model, Markdown, Holded, Bug Fixing, Time & Task Management...",
+          "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
         activity: "Software development",
       },
       {
