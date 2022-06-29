@@ -154,6 +154,7 @@ export default defineComponent({
         ? "animate__animated animate__faster animate__fadeInLeft"
         : "animate__animated animate__faster animate__fadeInRight";
     };
+
     return { data, hasUrl, conditionalFade };
   },
 });

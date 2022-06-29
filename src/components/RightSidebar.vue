@@ -1,11 +1,6 @@
 <template>
-  <Sidebar
-    class="sidebarBG"
-    :visible="isVisible"
-    @update:visible="(value) => $emit('update:isVisible', value)"
-    :baseZIndex="1000"
-    position="right"
-  >
+  <Sidebar class="sidebarBG" :visible="isVisible" @update:visible="(value) => $emit('update:isVisible', value)"
+    :baseZIndex="1000" position="right">
     <ul>
       <li>
         <router-link :to="'/'">

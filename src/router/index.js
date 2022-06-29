@@ -4,13 +4,13 @@ import {
 } from "vue-router";
 
 const routes = [{
-        path: "/",
-        component: () => import("@/views/Timeline.vue")
-    },
-    {
-        path: "/projects",
-        component: () => import("@/views/Projects.vue")
-    }
+    path: "/",
+    component: () => import("@/views/Timeline.vue")
+},
+{
+    path: "/projects",
+    component: () => import("@/views/Projects.vue")
+}
 ];
 
 const router = createRouter({

@@ -1,11 +1,7 @@
 <template>
   <div class="header animate__animated animate__faster animate__fadeInDown">
     <div class="p-d-flex p-flex-row p-jc-end p-ai-start p-mr-3 p-pt-3">
-      <Button
-        icon="pi pi-bars"
-        class="p-button-outlined p-button-warning"
-        @click="showSidebar = true"
-      />
+      <Button icon="pi pi-bars" class="p-button-outlined p-button-warning" @click="showSidebar = true" />
     </div>
     <div class="p-d-flex p-flex-column p-jc-around p-ai-center">
       <img class="selfie" :src="require('@/assets/alejandro.jpg')" />
@@ -18,15 +14,15 @@
         <span class="at">@</span>
         <span class="softwareDeveloper">SoftwareDeveloper</span>
       </h2>
+      <h3 class="gitHub">
+        Last commit:
+        <span class="date">{{ store.date }}</span>
+        Message:
+        <span class="message">{{ store.message }}</span>
+      </h3>
       <div class="social">
-        <a
-          href="https://www.linkedin.com/in/mezdelex/"
-          class="pi socialLink pi-briefcase p-mr-2"
-        />
-        <a
-          href="https://github.com/mezdelex"
-          class="pi socialLink pi-github p-mr-2"
-        />
+        <a href="https://www.linkedin.com/in/mezdelex/" class="pi socialLink pi-briefcase p-mr-2" />
+        <a href="https://github.com/mezdelex" class="pi socialLink pi-github p-mr-2" />
       </div>
     </div>
   </div>
@@ -34,8 +30,9 @@
 </template>
 
 <script>
-import { ref, defineComponent } from "vue";
+import { ref, defineComponent, onMounted } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
+import { store, api } from "@/services/github";
 
 export default defineComponent({
   components: {
@@ -43,12 +40,23 @@ export default defineComponent({
   },
   setup() {
     const showSidebar = ref(false);
-    return { showSidebar };
+
+    onMounted(() => {
+      api.getInfo();
+    });
+
+    return { showSidebar, store };
   },
 });
 </script>
 
 <style>
+:root {
+  --primary-text: orange;
+  --secondary-text: green;
+  --tertiary-text: palegoldenrod;
+}
+
 .socialLink {
   transition: transform 0.3s ease;
   transform: translateY(0px);
@@ -63,24 +71,33 @@ export default defineComponent({
   margin-bottom: 0;
 }
 
-.social > .pi {
+.social>.pi {
   font-size: 2rem;
 }
 
 .cBrackets {
-  color: green;
+  color: var(--secondary-text);
 }
 
 .at {
-  color: palegoldenrod;
+  color: var(--tertiary-text);
 }
 
 .softwareDeveloper {
-  color: green;
+  color: var(--secondary-text);
+}
+
+.date {
+  color: var(--secondary-text);
+  margin-right: 0.5rem;
+}
+
+.message {
+  color: var(--secondary-text);
 }
 
 .title {
-  color: orange;
+  color: var(--primary-text);
   margin: 0;
   margin-top: 1rem;
   font-family: sans-serif;
@@ -93,6 +110,15 @@ export default defineComponent({
   margin: 0;
   font-family: sans-serif;
   font-size: 1rem;
+  text-shadow: 1px 1px black;
+}
+
+.gitHub {
+  color: var(--tertiary-text);
+  margin: 0;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  font-size: 0.7rem;
   text-shadow: 1px 1px black;
 }
 

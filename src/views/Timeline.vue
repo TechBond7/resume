@@ -45,9 +45,7 @@ export default {
   color: green;
 }
 
-.p-accordion
-  .p-accordion-header:not(.p-disabled).p-highlight
-  .p-accordion-header-link {
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
   background: orange;
   border-color: orange;
 }
@@ -73,6 +71,7 @@ export default {
   .p-timeline-event:nth-child(even) {
     flex-direction: row !important;
   }
+
   .p-timeline-event-content {
     text-align: left !important;
   }
