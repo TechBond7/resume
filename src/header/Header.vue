@@ -115,8 +115,7 @@ export default defineComponent({
 
 .gitHub {
   color: var(--tertiary-text);
-  margin: 0;
-  margin-top: 1rem;
+  margin: 1rem 0 0 0.85rem;
   font-family: sans-serif;
   font-size: 0.7rem;
   text-shadow: 1px 1px black;
