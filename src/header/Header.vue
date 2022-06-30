@@ -15,12 +15,20 @@
         <span class="softwareDeveloper">SoftwareDeveloper</span>
       </h2>
       <h3 class="gitHub">
-        Last commit:
-        <span class="cDate">{{ store.date }}</span>
-        Link:
-        <a class="cLink" href="https://github.com/mezdelex/{{store.repo}}/commit/{{store.sha}}">Commit</a>
-        Message:
-        <span class="cMessage">{{ store.message }}</span>
+        <div class="dateAndLink">
+          <div>
+            Last activity:
+            <span class="cDate">{{ store.date }}</span>
+          </div>
+          <div>
+            Commit:
+            <a class="cLink" :href="commitLink">Link</a>
+          </div>
+        </div>
+        <div>
+          Info:
+          <span class="cMessage">{{ store.message }}</span>
+        </div>
       </h3>
       <div class="social">
         <a href="https://www.linkedin.com/in/mezdelex/" class="pi socialLink pi-briefcase p-mr-2" />
@@ -32,7 +40,7 @@
 </template>
 
 <script>
-import { ref, defineComponent, onMounted, watch } from "vue";
+import { ref, defineComponent, onMounted } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
 import { store, api } from "@/services/github";
 
@@ -42,13 +50,15 @@ export default defineComponent({
   },
   setup() {
     const showSidebar = ref(false);
+    const commitLink = ref("");
 
     onMounted(async () => {
       await api.getUpdatedRepo();
-      api.getLastCommit();
+      await api.getLastCommit();
+      commitLink.value = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`;
     });
 
-    return { showSidebar, store };
+    return { showSidebar, store, commitLink };
   },
 });
 </script>
@@ -58,6 +68,64 @@ export default defineComponent({
   --primary-text: orange;
   --secondary-text: green;
   --tertiary-text: palegoldenrod;
+}
+
+.title {
+  color: var(--primary-text);
+  margin: 0;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px black;
+}
+
+.cBrackets {
+  color: var(--secondary-text);
+}
+
+.subTitle {
+  color: grey;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px black;
+}
+
+.at {
+  color: var(--tertiary-text);
+}
+
+.softwareDeveloper {
+  color: var(--secondary-text);
+}
+
+.gitHub {
+  color: var(--tertiary-text);
+  margin: 1rem 0 0.5rem 0.85rem;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  text-shadow: 1px 1px black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cDate,
+.cLink {
+  color: var(--secondary-text);
+  margin-right: 0.5rem;
+}
+
+.cMessage {
+  color: var(--secondary-text);
+}
+
+.dateAndLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .socialLink {
@@ -76,53 +144,6 @@ export default defineComponent({
 
 .social>.pi {
   font-size: 2rem;
-}
-
-.cBrackets {
-  color: var(--secondary-text);
-}
-
-.at {
-  color: var(--tertiary-text);
-}
-
-.softwareDeveloper {
-  color: var(--secondary-text);
-}
-
-.date,
-.link {
-  color: var(--secondary-text);
-  margin-right: 0.5rem;
-}
-
-.message {
-  color: var(--secondary-text);
-}
-
-.title {
-  color: var(--primary-text);
-  margin: 0;
-  margin-top: 1rem;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  text-shadow: 1px 1px black;
-}
-
-.subTitle {
-  color: grey;
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 1rem;
-  text-shadow: 1px 1px black;
-}
-
-.gitHub {
-  color: var(--tertiary-text);
-  margin: 1rem 0 0 0.85rem;
-  font-family: sans-serif;
-  font-size: 0.7rem;
-  text-shadow: 1px 1px black;
 }
 
 .header {

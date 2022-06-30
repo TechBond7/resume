@@ -12,7 +12,7 @@ const commitsUrl = `https://api.github.com/repos/mezdelex/replaceMe/commits`;
 
 export const api = {
     "getUpdatedRepo": () => fetch(reposUrl).then(response => response.json()).then(data => {
-        store.repo = data.reduce((previous, next) => previous.updated_at.substring(0, 10) > next.updated_at.substring(0, 10) ? previous.name : next.name, "");
+        store.repo = data.reduce((current, next) => current.pushed_at > next.pushed_at ? current : next, data[0]).name;
     }).catch(error => console.log(error)),
     "getLastCommit": () => {
         fetch(commitsUrl.replace("replaceMe", store.repo)).then(response => response.json()).then(data => {
