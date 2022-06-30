@@ -16,9 +16,11 @@
       </h2>
       <h3 class="gitHub">
         Last commit:
-        <span class="date">{{ store.date }}</span>
+        <span class="cDate">{{ store.date }}</span>
+        Link:
+        <a class="cLink" href="https://github.com/mezdelex/{{store.repo}}/commit/{{store.sha}}">Commit</a>
         Message:
-        <span class="message">{{ store.message }}</span>
+        <span class="cMessage">{{ store.message }}</span>
       </h3>
       <div class="social">
         <a href="https://www.linkedin.com/in/mezdelex/" class="pi socialLink pi-briefcase p-mr-2" />
@@ -41,8 +43,10 @@ export default defineComponent({
   setup() {
     const showSidebar = ref(false);
 
-    onMounted(() => api.getUpdatedRepo());
-    watch(store.repo, api.getLastCommit());
+    onMounted(async () => {
+      await api.getUpdatedRepo();
+      api.getLastCommit();
+    });
 
     return { showSidebar, store };
   },
@@ -86,7 +90,8 @@ export default defineComponent({
   color: var(--secondary-text);
 }
 
-.date {
+.date,
+.link {
   color: var(--secondary-text);
   margin-right: 0.5rem;
 }
