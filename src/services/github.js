@@ -11,7 +11,8 @@ const commitsUrl = `https://api.github.com/repos/mezdelex/${store.repo}/commits`
 
 export const api = {
     "getUpdatedRepo": () => fetch(reposUrl).then(response => response.json()).then(data => {
-        store.repo = data.reduce((previous, next) => parseInt(previous.updated_at.substring(0, 10)) > parseInt(next.updated_at.substring(0, 10)) ? previous.name : next.name, "");
+        let initial = "";
+        store.repo = data.reduce((previous, next) => parseInt(previous.updated_at.substring(0, 10)) > parseInt(next.updated_at.substring(0, 10)) ? previous.name : next.name, initial);
     }).catch(_ => store.repo = "resume"),
     "getLastCommit": () => fetch(commitsUrl).then(response => response.json()).then(data => {
         store.date = data[0].commit.author.date.substring(0, 10);
