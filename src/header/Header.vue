@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { ref, defineComponent, onMounted } from "vue";
+import { ref, defineComponent, onMounted, watch } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
 import { store, api } from "@/services/github";
 
@@ -41,9 +41,8 @@ export default defineComponent({
   setup() {
     const showSidebar = ref(false);
 
-    onMounted(() => {
-      api.getInfo();
-    });
+    onMounted(() => api.getUpdatedRepo());
+    watch(store.repo, api.getLastCommit());
 
     return { showSidebar, store };
   },
