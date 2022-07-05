@@ -101,7 +101,7 @@ export default defineComponent({
 
 .gitHub {
   color: var(--tertiary-text);
-  margin: 1rem 0 0.5rem 0.85rem;
+  margin: 1rem 0 0.5rem 0rem;
   font-family: sans-serif;
   font-size: 0.7rem;
   text-shadow: 1px 1px black;
@@ -111,22 +111,22 @@ export default defineComponent({
   align-items: center;
 }
 
-.cDate,
-.cLink {
-  color: var(--secondary-text);
-  margin-right: 0.5rem;
-}
-
-.cMessage {
-  color: var(--secondary-text);
-}
-
 .dateAndLink {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.cDate {
+  color: var(--secondary-text);
+  margin-right: 0.5rem;
+}
+
+.cLink,
+.cMessage {
+  color: var(--secondary-text);
 }
 
 .socialLink {
