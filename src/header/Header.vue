@@ -54,7 +54,7 @@ export default defineComponent({
 
     onBeforeMount(async () => {
       await api.getUpdatedRepo();
-      await api.getLastCommit();
+      api.getLastCommit();
       commitLink.value = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`;
     });
 
