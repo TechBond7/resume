@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { ref, defineComponent, onMounted } from "vue";
+import { ref, defineComponent, onBeforeMount } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
 import { store, api } from "@/services/github";
 
@@ -52,7 +52,7 @@ export default defineComponent({
     const showSidebar = ref(false);
     const commitLink = ref("");
 
-    onMounted(async () => {
+    onBeforeMount(async () => {
       await api.getUpdatedRepo();
       await api.getLastCommit();
       commitLink.value = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`;
