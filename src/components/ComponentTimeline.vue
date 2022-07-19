@@ -58,7 +58,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "Ibermática",
+        what: "Ibermática (Remote)",
         where: "https://www.ibermatica.com/",
         date: "2022-Present",
         icon: "pi pi-desktop",
@@ -68,7 +68,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "D&A Innovative Systems",
+        what: "D&A Innovative Systems (Office)",
         where: "https://www.innovative-systems.es/",
         date: "2021-2022",
         icon: "pi pi-desktop",
@@ -78,7 +78,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "Advanced Java Development & RDBMS",
+        what: "Advanced Java Development & RDBMS (Remote)",
         where: "https://www.ipartek.com/",
         date: "2020-2021",
         icon: "pi pi-desktop",
@@ -88,7 +88,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "BBK Bootcamp Full Stack .NET Core",
+        what: "BBK Bootcamp Full Stack .NET Core (Hybrid)",
         where: "https://bbkbootcamp.com/",
         date: "2019-2020",
         icon: "pi pi-desktop",
@@ -98,7 +98,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "IT Technician",
+        what: "IT Technician (Face-to-face)",
         where: "Galitek S.L.",
         date: "2018-2019",
         icon: "pi pi-globe",
@@ -108,7 +108,7 @@ export default defineComponent({
         activity: "Telecommunications",
       },
       {
-        what: "Freelancer / IT Technician",
+        what: "Freelancer / IT Technician (Face-to-face)",
         where: "Fibrabide S.L.",
         date: "2015-2018",
         icon: "pi pi-globe",
@@ -118,7 +118,7 @@ export default defineComponent({
         activity: "Telecommunications",
       },
       {
-        what: "Freelancer / Graphic Designer / Photographer",
+        what: "Freelancer / Graphic Designer / Photographer (Hybrid)",
         where: "Demez Photo",
         date: "2014-2016",
         icon: "pi pi-camera",
@@ -128,7 +128,7 @@ export default defineComponent({
         activity: "Photography & grahic design",
       },
       {
-        what: "Graphic Designer / Photographer",
+        what: "Graphic Designer / Photographer (Office)",
         where: "https://www.prixmadigital.com/",
         date: "2010-2014",
         icon: "pi pi-camera",
@@ -138,7 +138,7 @@ export default defineComponent({
         activity: "Photography & grahic design",
       },
       {
-        what: "IT Technician",
+        what: "IT Technician (Face-to-face)",
         where: "https://fpandramari.eus/",
         date: "2005-2007",
         icon: "pi pi-briefcase",
