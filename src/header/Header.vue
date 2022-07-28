@@ -25,7 +25,7 @@
             <a class="cLink" :href="commitLink">Link</a>
           </div>
         </div>
-        <div>
+        <div class="cMessageContainer">
           Info:
           <span class="cMessage">{{ store.message }}</span>
         </div>
@@ -127,6 +127,10 @@ export default defineComponent({
 .cLink,
 .cMessage {
   color: var(--secondary-text);
+}
+
+.cMessageContainer {
+  margin-top: 0.2rem;
 }
 
 .socialLink {
