@@ -24,7 +24,7 @@ export default {
 }
 
 .fieldsetHover {
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
   transform: scale3d(1, 1, 1);
 }
 

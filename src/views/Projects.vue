@@ -21,7 +21,7 @@ export default {
 <style>
 .buttonHover,
 .cardHover {
-  transition: transform 0.1s ease;
+  transition: transform 0.2s ease;
   transform: scale3d(1, 1, 1);
 }
 

@@ -22,11 +22,11 @@
           </div>
           <div>
             Commit:
-            <a class="cLink" :href="commitLink">Link</a>
+            <a class="cLink" :href="commitLink" target="_blank">Link</a>
           </div>
         </div>
         <div class="cMessageContainer">
-          Info:
+          Message:
           <span class="cMessage">{{ store.message }}</span>
         </div>
       </h3>
