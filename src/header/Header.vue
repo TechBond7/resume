@@ -132,6 +132,7 @@ export default defineComponent({
 
 .cMessageContainer {
   margin-top: 0.2rem;
+  text-align: center;
 }
 
 .socialLink {
@@ -144,13 +145,11 @@ export default defineComponent({
 }
 
 .social {
-  margin: 1rem;
-  margin-bottom: 0;
-  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .social>.pi {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .header {
