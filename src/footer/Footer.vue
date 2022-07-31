@@ -2,7 +2,7 @@
   <div class="footer">© {{ date }} Mezdelex. All rights reserved</div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from "vue";
 
 export default defineComponent({

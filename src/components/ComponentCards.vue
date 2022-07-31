@@ -20,10 +20,10 @@
       <template #footer v-if="project.repo">
         <div class="p-d-flex p-flex-row p-jc-around p-ai-end">
           <a :href="project.repo" target="_">
-            <Button label="Repo" icon="pi pi-external-link" class="buttonHover p-button p-button-text" />
+            <Button label="Repo" icon="pi pi-github" class="buttonHover p-button p-button-text" />
           </a>
           <a :href="project.app" :alt="project.app" target="_">
-            <Button label="Link" icon="pi pi-external-link" class="buttonHover p-button p-button-text" />
+            <Button label="Link" icon="pi pi-link" class="buttonHover p-button p-button-text" />
           </a>
         </div>
       </template>

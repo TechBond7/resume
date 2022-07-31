@@ -31,8 +31,9 @@
         </div>
       </h3>
       <div class="social">
-        <a href="https://www.linkedin.com/in/mezdelex/" class="pi socialLink pi-briefcase p-mr-2" />
-        <a href="https://github.com/mezdelex" class="pi socialLink pi-github p-mr-2" />
+        <a href="https://github.com/mezdelex" class="pi pi-github socialLink p-mr-2" target="_blank" />
+        <a href="https://www.linkedin.com/in/mezdelex/" class="pi pi-linkedin socialLink p-mr-2" target="_blank" />
+        <a href="https://t.me/mezdelex" class="pi pi-telegram socialLink" target="_blank" />
       </div>
     </div>
   </div>
@@ -145,6 +146,7 @@ export default defineComponent({
 .social {
   margin: 1rem;
   margin-bottom: 0;
+  font-size: 2rem;
 }
 
 .social>.pi {

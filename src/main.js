@@ -15,8 +15,8 @@ import ScrollTop from "primevue/scrolltop";
 
 import "primevue/resources/themes/luna-amber/theme.css";
 import "primevue/resources/primevue.min.css";
-import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
+import "primeicons/primeicons.css"
 import "animate.css";
 
 createApp(App)
