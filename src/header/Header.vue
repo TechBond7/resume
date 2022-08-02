@@ -31,9 +31,10 @@
         </div>
       </h3>
       <div class="social">
-        <a href="https://github.com/mezdelex" class="pi pi-github socialLink p-mr-2" target="_blank" />
-        <a href="https://www.linkedin.com/in/mezdelex/" class="pi pi-linkedin socialLink p-mr-2" target="_blank" />
-        <a href="https://t.me/mezdelex" class="pi pi-telegram socialLink" target="_blank" />
+        <a href="https://github.com/mezdelex" class="pi pi-github socialLink p-mr-2" />
+        <a href="https://www.linkedin.com/in/mezdelex/" class="pi pi-linkedin socialLink p-mr-2" />
+        <a href="https://www.reddit.com/user/Mezdelex" class="pi pi-reddit socialLink p-mr-2" />
+        <a href="https://t.me/mezdelex" class="pi pi-telegram socialLink" />
       </div>
     </div>
   </div>
