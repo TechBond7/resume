@@ -68,7 +68,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "D&A Innovative Systems (Office)",
+        what: "D&A Innovative Systems (On-Site)",
         where: "https://www.innovative-systems.es/",
         date: "2021-2022",
         icon: "pi pi-desktop",
@@ -98,7 +98,7 @@ export default defineComponent({
         activity: "Software development",
       },
       {
-        what: "IT Technician (Face-to-face)",
+        what: "IT Technician (On-Site)",
         where: "Galitek S.L.",
         date: "2018-2019",
         icon: "pi pi-globe",
@@ -108,7 +108,7 @@ export default defineComponent({
         activity: "Telecommunications",
       },
       {
-        what: "Freelancer / IT Technician (Face-to-face)",
+        what: "Freelancer / IT Technician (On-Site)",
         where: "Fibrabide S.L.",
         date: "2015-2018",
         icon: "pi pi-globe",
@@ -128,7 +128,7 @@ export default defineComponent({
         activity: "Photography & grahic design",
       },
       {
-        what: "Graphic Designer / Photographer (Office)",
+        what: "Graphic Designer / Photographer (On-Site)",
         where: "https://www.prixmadigital.com/",
         date: "2010-2014",
         icon: "pi pi-camera",
@@ -138,7 +138,7 @@ export default defineComponent({
         activity: "Photography & grahic design",
       },
       {
-        what: "IT Technician (Face-to-face)",
+        what: "IT Technician (On-Site)",
         where: "https://fpandramari.eus/",
         date: "2005-2007",
         icon: "pi pi-briefcase",
