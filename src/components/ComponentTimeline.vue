@@ -54,7 +54,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "Algorithms, Data Structures, Problem Solving, .NET 6, Entity Framework (Model/Code First), Fluent API, Swagger UI, C#10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, MSSM, Transact-SQL, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
+          "Algorithms, Data Structures, Problem Solving, .NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
         activity: "Software development",
       },
       {
@@ -64,7 +64,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          ".NET 6, Entity Framework (Model/Code First), Fluent API, Swagger UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Windows Terminal, PowerShell Core, MSSQL, MSSM, Transact-SQL, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
+          ".NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
         activity: "Software development",
       },
       {
@@ -94,7 +94,7 @@ export default defineComponent({
         icon: "pi pi-desktop",
         color: color.value,
         skills:
-          "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MS SQL Server, MSSM, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
+          "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MSSQL, SSMS, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
         activity: "Software development",
       },
       {
