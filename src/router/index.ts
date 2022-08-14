@@ -1,10 +1,11 @@
 import {
     createRouter,
     createWebHashHistory,
-    Router
+    Router,
+    RouteRecordRaw
 } from "vue-router";
 
-const routes = [{
+const routes: Array<RouteRecordRaw> = [{
     path: "/",
     component: () => import("@/views/Timeline.vue")
 },

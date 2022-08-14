@@ -8,14 +8,15 @@
 import Header from "@/header/Header.vue";
 import ComponentCards from "@/components/ComponentCards.vue";
 import Footer from "@/footer/Footer.vue";
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
   components: {
     Header,
     ComponentCards,
     Footer,
   },
-};
+});
 </script>
 
 <style>
