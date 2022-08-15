@@ -30,12 +30,20 @@
     </Card>
   </div>
 </template>
-<script>
-import { ref, defineComponent } from "vue";
+<script lang="ts">
+import { ref, defineComponent, Ref } from "vue";
 
 export default defineComponent({
   setup() {
-    const projects = ref([
+    interface projectsType {
+      name: string,
+      image: string,
+      repo: string,
+      app: string,
+      description: string
+    }
+
+    const projects: Ref<Array<projectsType>> = ref([
       {
         name: "Touch Typing",
         image: require("@/assets/monkeytype.png"),

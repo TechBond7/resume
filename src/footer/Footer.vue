@@ -2,14 +2,14 @@
   <div class="footer">© {{ date }} Mezdelex. All rights reserved</div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
   setup() {
-    return {
-      date: new Date().getFullYear(),
-    };
+    const date: number = new Date().getFullYear();
+
+    return { date };
   },
 });
 </script>

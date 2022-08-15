@@ -41,8 +41,8 @@
   <right-sidebar v-model:isVisible="showSidebar" />
 </template>
 
-<script>
-import { ref, defineComponent, onMounted } from "vue";
+<script lang="ts">
+import { ref, defineComponent, onMounted, Ref } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
 import { store, api } from "@/services/github";
 
@@ -51,8 +51,8 @@ export default defineComponent({
     RightSidebar,
   },
   setup() {
-    const showSidebar = ref(false);
-    const commitLink = ref("");
+    const showSidebar: Ref<boolean> = ref(false);
+    const commitLink: Ref<string> = ref("");
 
     onMounted(async () => {
       await api.getUpdatedRepo();

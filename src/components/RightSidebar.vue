@@ -1,5 +1,5 @@
 <template>
-  <Sidebar class="sidebarBG" :visible="isVisible" @update:visible="(value) => $emit('update:isVisible', value)"
+  <Sidebar class="sidebarBG" :visible="isVisible" @update:visible="(value: boolean) => $emit('update:isVisible', value)"
     :baseZIndex="1000" position="right">
     <ul>
       <li>
@@ -16,7 +16,7 @@
   </Sidebar>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     isVisible: Boolean,

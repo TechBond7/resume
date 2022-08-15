@@ -39,14 +39,25 @@
   </Timeline>
 </template>
 
-<script>
-import { ref, defineComponent } from "vue";
+<script lang="ts">
+import { ref, defineComponent, Ref } from "vue";
 
 export default defineComponent({
   setup() {
-    let counter = 0;
-    const color = ref("#333");
-    const data = ref([
+    let counter: number = 0;
+    const color: Ref<string> = ref("#333");
+
+    interface dataType {
+      what: string,
+      where: string,
+      date: string,
+      icon: string,
+      color: string,
+      skills: string,
+      activity: string
+    }
+
+    const data: Ref<Array<dataType>> = ref([
       {
         what: "Self Taught",
         where: "https://www.mezdelex.com/",
@@ -148,8 +159,9 @@ export default defineComponent({
         activity: "HNC",
       },
     ]);
-    const hasUrl = (value) => value.includes("https");
-    const conditionalFade = () => {
+
+    const hasUrl: (value: string) => boolean = (value: string) => value.includes("https");
+    const conditionalFade: () => string = () => {
       return counter++ % 2 !== 0
         ? "animate__animated animate__faster animate__fadeInLeft"
         : "animate__animated animate__faster animate__fadeInRight";
