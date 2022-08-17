@@ -1,9 +1,7 @@
 <template>
   <div class="p-grid">
-    <Card class="
-        p-mb-auto p-mt-5 p-mx-auto
-        animate__animated animate__faster animate__fadeInUp
-      " style="width: 25rem; height: 36rem" v-for="project in projects" :key="project.name">
+    <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
+      style="width: 25rem; height: 36rem" v-for="project in projects" :key="project.name">
       <template #header>
         <a :href="project.app" target="_">
           <img class="cardHover" :src="project.image" style="height: 15rem" :alt="project.name" />
@@ -130,3 +128,9 @@ export default defineComponent({
   },
 });
 </script>
+<style >
+.p-card-body {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+</style>
