@@ -64,7 +64,7 @@ export default defineComponent({
         repo: "https://github.com/mezdelex/LeetCode",
         app: "https://leetcode.com/mezdelex",
         description:
-          "A journey started in April 2022 to keep algorithmic problem solving fresh and improve my expertise with C++ and C# while using .NET xUnit for Unit Testing. Coded with VS Code.",
+          "A journey started in April 2022 to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using .NET's xUnit and Rustlang's native library for Unit Testing. Coded with VS Code.",
       },
       {
         name: "Resume",
