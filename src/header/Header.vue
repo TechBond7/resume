@@ -69,7 +69,7 @@ export default defineComponent({
 :root {
   --primary-text: orange;
   --secondary-text: green;
-  --tertiary-text: palegoldenrod;
+  --tertiary-text: #7daea3;
 }
 
 .title {
@@ -78,7 +78,6 @@ export default defineComponent({
   margin-top: 1rem;
   font-family: sans-serif;
   font-size: 1.5rem;
-  text-shadow: 1px 1px black;
 }
 
 .cBrackets {
@@ -86,11 +85,9 @@ export default defineComponent({
 }
 
 .subTitle {
-  color: grey;
   margin: 0;
   font-family: sans-serif;
   font-size: 1rem;
-  text-shadow: 1px 1px black;
 }
 
 .at {
@@ -106,7 +103,6 @@ export default defineComponent({
   margin: 1rem 0 0.5rem 0rem;
   font-family: sans-serif;
   font-size: 0.7rem;
-  text-shadow: 1px 1px black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -154,10 +150,9 @@ export default defineComponent({
 }
 
 .header {
-  background: rgba(0, 0, 0, 0.801);
+  background: black;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 0px 1px 5px 1px black;
 }
 
 .selfie {
