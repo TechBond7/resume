@@ -22,7 +22,7 @@
           </div>
           <div>
             Commit:
-            <a class="cLink" :href="commitLink" target="_blank">Link</a>
+            <a class="cLink" :href="store.link" target="_blank">Link</a>
           </div>
         </div>
         <div class="cMessageContainer">
@@ -42,9 +42,9 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, onMounted, Ref } from "vue";
+import { ref, defineComponent, Ref, onMounted } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
-import { store, api } from "@/services/github";
+import { store, api } from "@/services/githubService";
 
 export default defineComponent({
   components: {
@@ -52,15 +52,16 @@ export default defineComponent({
   },
   setup() {
     const showSidebar: Ref<boolean> = ref(false);
-    const commitLink: Ref<string> = ref("");
 
     onMounted(async () => {
-      await api.getUpdatedRepo();
-      api.getLastCommit();
-      commitLink.value = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`;
+      if (store.link === "") {
+        await api.getRepos();
+        api.getUpdatedRepo();
+        api.getLastCommit();
+      }
     });
 
-    return { showSidebar, store, commitLink };
+    return { showSidebar, store };
   },
 });
 </script>
