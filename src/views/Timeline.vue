@@ -87,6 +87,11 @@ export default defineComponent({
   color: var(--custom-blue);
 }
 
+.text-small {
+  font-size: xx-small;
+  margin-inline: 0.1rem;
+}
+
 @media screen and (max-width: 960px) {
   .p-timeline-event:nth-child(even) {
     flex-direction: row !important;

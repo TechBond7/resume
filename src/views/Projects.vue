@@ -54,4 +54,21 @@ export default defineComponent({
   margin-inline: 0.5rem;
   color: orange;
 }
+
+.p-card-body {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.last-update {
+  font-size: xx-small;
+  font-weight: 600;
+  color: #7daea3;
+  margin-left: 1.8rem;
+}
+
+.text-small {
+  font-size: xx-small;
+  margin-inline: 0.1rem;
+}
 </style>
