@@ -12,7 +12,7 @@
       </template>
       <template #content>
         <div style="height: 12rem">
-          {{ project.description }} {{ project.pushed_at }}
+          {{ project.description }}
         </div>
       </template>
       <template #footer v-if="project.repo">
