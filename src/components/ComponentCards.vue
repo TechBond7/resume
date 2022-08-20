@@ -4,13 +4,16 @@
       style="width: 25rem; height: 36rem" v-for="project in store.projects" :key="project.name">
       <template #header>
         <a :href="project.app" target="_">
-          <img class="cardHover" :src="project.image" style="height: 15rem" :alt="project.name" />
+          <img class="cardHover" :src="project.image" style="height: 14rem" :alt="project.name" />
         </a>
       </template>
       <template #title>
         {{ project.name }}
       </template>
       <template #content>
+        <div class="last-update">
+          Last update: {{ project.pushed_at.substring(0, 10) }}
+        </div>
         <div style="height: 12rem">
           {{ project.description }}
         </div>
@@ -44,5 +47,12 @@ export default defineComponent({
 .p-card-body {
   margin: 0.5rem;
   padding: 0.5rem;
+}
+
+.last-update {
+  font-size: x-small;
+  font-weight: 600;
+  color: #7daea3;
+  margin-bottom: 0.3rem;
 }
 </style>

@@ -50,7 +50,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/Resume",
         app: "https://www.mezdelex.com",
         description:
-            "VueJS 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code.",
+            "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with VS Code.",
     },
     {
         id: "Concesionario-SPA",
@@ -60,7 +60,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/Concesionario-SPA",
         app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex",
         description:
-            "Technical test using Spring Boot 2.4.5, VueJS 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the link it's a YouTube demo.",
+            "Technical test using Spring Boot 2.4.5, Vue 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VS Code. The project was not deployed anywhere so the link it's a YouTube demo.",
     },
     {
         id: "Recetario-SPA",
@@ -70,7 +70,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/Recetario-SPA",
         app: "https://spa-recetario.netlify.app",
         description:
-            "VueJS 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+            "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VS Code. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
     },
     {
         id: "Recetario-RESTful-API",
