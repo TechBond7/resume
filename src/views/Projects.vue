@@ -35,13 +35,8 @@ export default defineComponent({
   color: rgb(0, 155, 0);
 }
 
-.p-card-header img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-
 .p-card {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .p-card .p-card-title {

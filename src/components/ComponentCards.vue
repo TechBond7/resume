@@ -3,6 +3,9 @@
     <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
       style="width: 25rem; height: 36rem" v-for="project in store.projects" :key="project.name">
       <template #header>
+        <span class="last-update">
+          Last update: <i class="pi pi-cloud-upload text-small"></i> {{ project.pushed_at.substring(0, 10) }}
+        </span>
         <a :href="project.app" target="_">
           <img class="cardHover" :src="project.image" style="height: 14rem" :alt="project.name" />
         </a>
@@ -11,9 +14,6 @@
         {{ project.name }}
       </template>
       <template #content>
-        <div class="last-update">
-          Last update: {{ project.pushed_at.substring(0, 10) }}
-        </div>
         <div style="height: 12rem">
           {{ project.description }}
         </div>
@@ -50,9 +50,14 @@ export default defineComponent({
 }
 
 .last-update {
-  font-size: x-small;
+  font-size: xx-small;
   font-weight: 600;
   color: #7daea3;
-  margin-bottom: 0.3rem;
+  margin-left: 1.8rem;
+}
+
+.text-small {
+  font-size: xx-small;
+  margin-inline: 0.1rem;
 }
 </style>

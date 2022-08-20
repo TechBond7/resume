@@ -20,6 +20,13 @@ export default defineComponent({
 </script>
 
 <style>
+:root {
+  --custom-blue: #7daea3;
+  --custom-green: green;
+  --custom-orange: orange;
+  --custom-background: #323232
+}
+
 .p-fieldset {
   border-radius: 0.5rem;
 }
@@ -34,7 +41,7 @@ export default defineComponent({
 }
 
 .p-fieldset .p-fieldset-legend {
-  color: green;
+  color: var(--custom-green);
   border-radius: 0.5rem;
 }
 
@@ -43,16 +50,16 @@ export default defineComponent({
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
-  color: green;
+  color: var(--custom-green);
 }
 
 .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
-  background: orange;
-  border-color: orange;
+  background: var(--custom-orange);
+  border-color: var(--custom-orange);
 }
 
 .accordionText {
-  color: orange;
+  color: var(--custom-orange);
 }
 
 .custom-marker {
@@ -61,11 +68,12 @@ export default defineComponent({
   height: 2rem;
   align-items: center;
   justify-content: center;
-  color: orange;
+  color: var(--custom-blue);
   border-radius: 1rem;
   padding-left: 0.1rem;
   padding-top: 0.1rem;
   z-index: 1;
+  background-color: var(--custom-background);
 }
 
 @media screen and (max-width: 960px) {
