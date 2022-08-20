@@ -24,7 +24,7 @@ export default defineComponent({
   --custom-blue: #7daea3;
   --custom-green: green;
   --custom-orange: orange;
-  --custom-background: #323232
+  --custom-background: #323232;
 }
 
 .p-fieldset {
@@ -42,7 +42,12 @@ export default defineComponent({
 
 .p-fieldset .p-fieldset-legend {
   color: var(--custom-green);
+  padding: 0.7rem;
   border-radius: 0.5rem;
+}
+
+.p-fieldset-legend-text {
+  color: var(--custom-green);
 }
 
 .p-fieldset .p-fieldset-content {
@@ -74,6 +79,12 @@ export default defineComponent({
   padding-top: 0.1rem;
   z-index: 1;
   background-color: var(--custom-background);
+}
+
+.custom-info {
+  font-size: x-small;
+  font-weight: 600;
+  color: var(--custom-blue);
 }
 
 @media screen and (max-width: 960px) {

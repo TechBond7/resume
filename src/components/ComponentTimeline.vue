@@ -11,8 +11,8 @@
       <div :class="conditionalFade()">
         <Fieldset class="fieldsetHover" :legend="slotProps.item.what">
           <ul>
-            <li>
-              {{ slotProps.item.date }}
+            <li class="custom-info">
+              {{ slotProps.item.date }} <i class="pi pi-box text-small"></i> {{ slotProps.item.activity }}
             </li>
             <li class="linkHover" v-if="hasUrl(slotProps.item.where)">
               <a :href="slotProps.item.where" :alt="slotProps.item.where" target="_">
@@ -21,9 +21,6 @@
             </li>
             <li v-else>
               {{ slotProps.item.where }}
-            </li>
-            <li>
-              {{ slotProps.item.activity }}
             </li>
           </ul>
           <Accordion>
