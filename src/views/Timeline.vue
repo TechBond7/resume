@@ -21,10 +21,10 @@ export default defineComponent({
 
 <style>
 :root {
+  --custom-background: #323232;
   --custom-blue: #7daea3;
   --custom-green: green;
   --custom-orange: orange;
-  --custom-background: #323232;
 }
 
 .p-fieldset {

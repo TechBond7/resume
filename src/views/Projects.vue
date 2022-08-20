@@ -20,6 +20,13 @@ export default defineComponent({
 </script>
 
 <style>
+:root {
+  --custom-background: #282828;
+  --custom-blue: #7daea3;
+  --custom-green: green;
+  --custom-orange: orange;
+}
+
 .buttonHover,
 .cardHover {
   transition: transform 0.2s ease;
@@ -32,7 +39,7 @@ export default defineComponent({
 }
 
 .p-button.p-button-text {
-  color: rgb(0, 155, 0);
+  color: var(--custom-green);
 }
 
 .p-card {
@@ -40,19 +47,20 @@ export default defineComponent({
 }
 
 .p-card .p-card-title {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: larger;
+  font-weight: 600;
   text-align: center;
-  background: rgba(128, 128, 128, 0.185);
+  background: var(--custom-background);
   padding-bottom: 0.3rem;
-  color: green;
-  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  color: var(--custom-green);
+  border-radius: 1rem;
 }
 
 .p-card .p-card-content {
   padding: 0;
   margin-inline: 0.5rem;
-  color: orange;
+  color: var(--custom-orange);
 }
 
 .p-card-body {
@@ -63,7 +71,7 @@ export default defineComponent({
 .last-update {
   font-size: xx-small;
   font-weight: 600;
-  color: #7daea3;
+  color: var(--custom-blue);
   margin-left: 1.8rem;
 }
 
