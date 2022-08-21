@@ -25,7 +25,6 @@ export default defineComponent({
   --custom-blue: #7daea3;
   --custom-green: green;
   --custom-orange: orange;
-  --custom-gray: #a89984;
 }
 
 .p-fieldset {
@@ -87,13 +86,6 @@ export default defineComponent({
   font-size: x-small;
   font-weight: 600;
   color: var(--custom-blue);
-}
-
-.custom-modality {
-  margin-top: 0.1rem;
-  font-size: x-small;
-  font-weight: 600;
-  color: var(--custom-gray);
 }
 
 .text-small {
