@@ -52,6 +52,7 @@ export default defineComponent({
 
 .p-fieldset .p-fieldset-content {
   padding: 0;
+  font-size: small;
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {

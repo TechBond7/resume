@@ -27,10 +27,10 @@ a:hover {
 
 ul {
   list-style: none;
-  padding-left: 1rem;
-  padding-top: 0;
   margin-top: 0.5rem;
-  padding-right: 1rem;
+  padding-top: 0;
+  padding-left: 0.2rem;
+  padding-right: 0.3rem;
 }
 
 li {
