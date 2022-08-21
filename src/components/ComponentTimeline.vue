@@ -22,6 +22,9 @@
             <li v-else>
               {{ slotProps.item.where }}
             </li>
+            <li class="custom-modality">
+              {{ slotProps.item.from }}
+            </li>
           </ul>
           <Accordion>
             <AccordionTab header="Skills">
@@ -44,104 +47,105 @@ export default defineComponent({
     let counter: number = 0;
 
     interface dataType {
-      what: string,
-      where: string,
-      date: string,
       icon: string,
-      skills: string,
+      what: string,
+      date: string,
       activity: string
+      where: string,
+      from: string,
+      skills: string,
     }
 
     const data: Ref<Array<dataType>> = ref([
       {
+        icon: "pi pi-code",
         what: "Self Taught",
-        where: "https://www.mezdelex.com/",
         date: "2021-Present",
-        icon: "pi pi-code",
-        skills:
-          "Algorithms, Data Structures, Problem Solving, Rust, .NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
         activity: "Software development",
+        where: "https://www.mezdelex.com/",
+        from: "Hybrid",
+        skills: "Algorithms, Data Structures, Problem Solving, Rust, .NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, YAML, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CD, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
       },
       {
-        what: "Ibermática (Remote)",
-        where: "https://www.ibermatica.com/",
+        icon: "pi pi-code",
+        what: "Ibermática",
         date: "2022-Present",
-        icon: "pi pi-code",
-        skills:
-          ".NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
         activity: "Software development",
+        where: "https://www.ibermatica.com/",
+        from: "Remote",
+        skills: ".NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
       },
       {
-        what: "D&A Innovative Systems (On-Site)",
-        where: "https://www.innovative-systems.es/",
+        icon: "pi pi-code",
+        what: "D&A Innovative Systems",
         date: "2021-2022",
-        icon: "pi pi-code",
-        skills:
-          "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
         activity: "Software development",
+        where: "https://www.innovative-systems.es/",
+        from: "On-Site",
+        skills: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
       },
       {
-        what: "Advanced Java Development & RDBMS (Remote)",
-        where: "https://www.ipartek.com/",
+        icon: "pi pi-code",
+        what: "Advanced Java Development & RDBMS",
         date: "2020-2021",
-        icon: "pi pi-code",
-        skills:
-          "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, VS Code, Insomnia, JSP, Servlets, Git, MVC, JSON...",
         activity: "Software development",
+        where: "https://www.ipartek.com/",
+        from: "Remote",
+        skills: "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, VS Code, Insomnia, JSP, Servlets, Git, MVC, JSON...",
       },
       {
-        what: "BBK Bootcamp Full Stack .NET Core (Hybrid)",
-        where: "https://bbkbootcamp.com/",
+        icon: "pi pi-code",
+        what: "BBK Bootcamp Full Stack .NET Core",
         date: "2019-2020",
-        icon: "pi pi-code",
-        skills:
-          "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MSSQL, SSMS, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
         activity: "Software development",
+        where: "https://bbkbootcamp.com/",
+        from: "Hybrid",
+        skills: "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MSSQL, SSMS, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
       },
       {
-        what: "IT Technician (On-Site)",
-        where: "Galitek S.L.",
+        icon: "pi pi-globe",
+        what: "IT Technician",
         date: "2018-2019",
-        icon: "pi pi-globe",
-        skills:
-          "FTTH/CATV, Service Migrations, VoIP, Help Desk, Networking Solutions...",
         activity: "Telecommunications",
+        where: "Galitek S.L.",
+        from: "On-Site",
+        skills: "FTTH/CATV, Service Migrations, VoIP, Help Desk, Networking Solutions...",
       },
       {
-        what: "Freelancer / IT Technician (On-Site)",
-        where: "Fibrabide S.L.",
+        icon: "pi pi-globe",
+        what: "Freelancer / IT Technician",
         date: "2015-2018",
-        icon: "pi pi-globe",
-        skills:
-          "FTTH/MacroLAN, Service Migrations, Help Desk, Networking Solutions...",
         activity: "Telecommunications",
+        where: "Fibrabide S.L.",
+        from: "On-Site",
+        skills: "FTTH/MacroLAN, Service Migrations, Help Desk, Networking Solutions...",
       },
       {
-        what: "Freelancer / Graphic Designer / Photographer (Hybrid)",
-        where: "Demez Photo",
+        icon: "pi pi-camera",
+        what: "Freelancer / Graphic Designer / Photographer",
         date: "2014-2016",
-        icon: "pi pi-camera",
-        skills:
-          "Photoshop, Illustrator, Lightroom, Logo Design, Marketing, Photo Manipulation, Branding, Album Design, Model Shooting, Weeding Management, Simple WEBs...",
         activity: "Photography & grahic design",
+        where: "Demez Photo",
+        from: "Hybrid",
+        skills: "Photoshop, Illustrator, Lightroom, Logo Design, Marketing, Photo Manipulation, Branding, Album Design, Model Shooting, Weeding Management, Simple WEBs...",
       },
       {
-        what: "Graphic Designer / Photographer (On-Site)",
-        where: "https://www.prixmadigital.com/",
+        icon: "pi pi-camera",
+        what: "Graphic Designer / Photographer",
         date: "2010-2014",
-        icon: "pi pi-camera",
-        skills:
-          "Photoshop, Illustrator, Lightroom, Branding, Stock Photography, Album Design, Model Shooting, Weeding Management, Simple Joomla Web Designs...",
         activity: "Photography & grahic design",
+        where: "https://www.prixmadigital.com/",
+        from: "On-Site",
+        skills: "Photoshop, Illustrator, Lightroom, Branding, Stock Photography, Album Design, Model Shooting, Weeding Management, Simple Joomla Web Designs...",
       },
       {
-        what: "IT Technician (On-Site)",
-        where: "https://fpandramari.eus/",
-        date: "2005-2007",
         icon: "pi pi-briefcase",
-        skills:
-          "VoIP, Server Management, C, Structured Programming, Network Design, RF Applications...",
+        what: "IT Technician",
+        date: "2005-2007",
         activity: "HNC",
+        where: "https://fpandramari.eus/",
+        from: "On-Site",
+        skills: "VoIP, Server Management, C, Structured Programming, Network Design, RF Applications...",
       },
     ]);
 
