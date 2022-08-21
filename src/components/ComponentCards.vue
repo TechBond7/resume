@@ -7,7 +7,7 @@
           Last update: <i class="pi pi-cloud-upload text-small"></i> {{ project.pushed_at.substring(0, 10) }}
         </span>
         <a :href="project.app" target="_">
-          <img class="cardHover img-field" :src="project.image" style="height: 14rem" :alt="project.name" />
+          <img class="cardHover img-field" :src="project.image" style="height: 13rem" :alt="project.name" />
         </a>
       </template>
       <template #title>
