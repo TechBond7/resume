@@ -5,15 +5,16 @@
     </div>
     <div class="p-d-flex p-flex-column p-jc-around p-ai-center">
       <img class="selfie" :src="require('@/assets/alejandro.jpg')" />
+      <h2 class="subTitle">
+        <span class="decorator">#[</span>
+        <span class="software-developer">software_developer</span>
+        <span class="decorator">]</span>
+      </h2>
       <h1 class="title">
         <span class="cBrackets">{</span>
         Alejandro Conde Gómez
         <span class="cBrackets">}</span>
       </h1>
-      <h2 class="subTitle">
-        <span class="at">@</span>
-        <span class="softwareDeveloper">SoftwareDeveloper</span>
-      </h2>
       <h3 class="gitHub">
         <div class="dateAndLink">
           <div>
@@ -73,30 +74,30 @@ export default defineComponent({
   --tertiary-text: #7daea3;
 }
 
+.cBrackets {
+  color: var(--secondary-text);
+}
+
 .title {
   color: var(--primary-text);
   margin: 0;
-  margin-top: 1rem;
   font-family: sans-serif;
   font-size: 1.5rem;
 }
 
-.cBrackets {
+.decorator {
+  color: var(--tertiary-text);
+}
+
+.software-developer {
   color: var(--secondary-text);
 }
 
 .subTitle {
   margin: 0;
+  margin-top: 1rem;
   font-family: sans-serif;
   font-size: 1rem;
-}
-
-.at {
-  color: var(--tertiary-text);
-}
-
-.softwareDeveloper {
-  color: var(--secondary-text);
 }
 
 .gitHub {
