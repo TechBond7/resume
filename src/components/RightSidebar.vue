@@ -30,7 +30,6 @@ export default {
 }
 
 .sidebar-bg {
-  width: 12.75rem;
   background-color: black;
 }
 
