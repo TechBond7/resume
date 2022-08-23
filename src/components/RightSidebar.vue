@@ -4,7 +4,7 @@
     <ul>
       <li class="router-link">
         <router-link :to="'/'">
-          <i class="pi pi-calendar custom-icon"></i>Timeline
+          <i class="pi pi-history custom-icon"></i>Timeline
         </router-link>
       </li>
       <li class="router-link">
