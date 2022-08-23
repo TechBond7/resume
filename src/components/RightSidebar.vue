@@ -1,15 +1,15 @@
 <template>
-  <Sidebar class="sidebarBG" :visible="isVisible" @update:visible="(value: boolean) => $emit('update:isVisible', value)"
-    :baseZIndex="1000" position="right">
+  <Sidebar class="sidebar-bg" :visible="isVisible"
+    @update:visible="(value: boolean) => $emit('update:isVisible', value)" :baseZIndex="1" position="right">
     <ul>
-      <li>
+      <li class="router-link">
         <router-link :to="'/'">
-          <Button class="p-button-text p-button-warning"> Timeline </Button>
+          Timeline
         </router-link>
       </li>
-      <li>
+      <li class="router-link">
         <router-link :to="'/projects'">
-          <Button class="p-button-text p-button-warning"> Projects </Button>
+          Projects
         </router-link>
       </li>
     </ul>
@@ -25,7 +25,12 @@ export default {
 </script>
 
 <style>
-.sidebarBG {
+.router-link {
+  margin: 1rem;
+}
+
+.sidebar-bg {
+  width: 12.75rem;
   background-color: black;
 }
 

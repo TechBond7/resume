@@ -11,24 +11,24 @@
         <span class="decorator">|</span>
       </h2>
       <h1 class="title">
-        <span class="cBrackets">{</span>
+        <span class="curly-brackets">{</span>
         Alejandro Conde Gómez
-        <span class="cBrackets">}</span>
+        <span class="curly-brackets">}</span>
       </h1>
-      <h3 class="gitHub">
-        <div class="dateAndLink">
+      <h3 class="github">
+        <div class="date-and-link">
           <div>
             Last activity:
-            <span class="cDate">{{ store.date }}</span>
+            <span class="custom-date">{{ store.date }}</span>
           </div>
           <div>
             Commit:
-            <a class="cLink" :href="store.link" target="_blank">Link</a>
+            <a class="custom-link" :href="store.link" target="_blank">Link</a>
           </div>
         </div>
-        <div class="cMessageContainer">
+        <div class="custom-message-container">
           Message:
-          <span class="cMessage">{{ store.message }}</span>
+          <span class="custom-message">{{ store.message }}</span>
         </div>
       </h3>
       <div class="social">
@@ -74,7 +74,7 @@ export default defineComponent({
   --tertiary-text: #7daea3;
 }
 
-.cBrackets {
+.curly-brackets {
   color: var(--secondary-text);
 }
 
@@ -100,7 +100,7 @@ export default defineComponent({
   font-size: 1rem;
 }
 
-.gitHub {
+.github {
   color: var(--tertiary-text);
   margin: 1rem 0 0.5rem 0rem;
   font-family: sans-serif;
@@ -111,7 +111,7 @@ export default defineComponent({
   align-items: center;
 }
 
-.dateAndLink {
+.date-and-link {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -119,17 +119,17 @@ export default defineComponent({
   align-items: center;
 }
 
-.cDate {
+.custom-date {
   color: var(--secondary-text);
   margin-right: 0.5rem;
 }
 
-.cLink,
-.cMessage {
+.custom-link,
+.custom-message {
   color: var(--secondary-text);
 }
 
-.cMessageContainer {
+.custom-message-container {
   margin-top: 0.2rem;
   text-align: center;
 }
