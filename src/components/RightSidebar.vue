@@ -4,12 +4,12 @@
     <ul>
       <li class="router-link">
         <router-link :to="'/'">
-          Timeline
+          <i class="pi pi-calendar"></i> Timeline
         </router-link>
       </li>
       <li class="router-link">
         <router-link :to="'/projects'">
-          Projects
+          <i class="pi pi-folder"></i> Projects
         </router-link>
       </li>
     </ul>
