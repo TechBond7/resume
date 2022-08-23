@@ -4,12 +4,12 @@
     <ul>
       <li class="router-link">
         <router-link :to="'/'">
-          <i class="pi pi-calendar"></i> Timeline
+          <i class="pi pi-calendar custom-icon"></i>Timeline
         </router-link>
       </li>
       <li class="router-link">
         <router-link :to="'/projects'">
-          <i class="pi pi-folder"></i> Projects
+          <i class="pi pi-folder custom-icon"></i>Projects
         </router-link>
       </li>
     </ul>
@@ -25,12 +25,20 @@ export default {
 </script>
 
 <style>
+:root {
+  --custom-black: black;
+}
+
+.custom-icon {
+  margin-right: 0.5rem;
+}
+
 .router-link {
   margin: 1rem;
 }
 
 .sidebar-bg {
-  background-color: black;
+  background-color: var(--custom-black);
 }
 
 .p-button.p-button-icon-only {
