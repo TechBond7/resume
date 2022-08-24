@@ -4,7 +4,7 @@
       style="width: 25rem; height: 36rem" v-for="project in store.projects" :key="project.name">
       <template #header>
         <span class="last-update">
-          Last update: <i class="pi pi-cloud-upload text-small"></i> {{ project.pushed_at.substring(0, 10) }}
+          Last update: <i class="pi pi-cloud-upload text-small"></i> {{ project.pushed_at?.substring(0, 10) }}
         </span>
         <a :href="project.app" target="_">
           <img class="cardHover img-field" :src="project.image" style="height: 13rem" :alt="project.name" />
