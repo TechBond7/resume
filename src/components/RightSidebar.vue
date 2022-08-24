@@ -52,11 +52,11 @@ export default {
 }
 
 .custom-timeline {
-  margin-inline: 0.5rem;
+  margin-inline: 0.2rem;
 }
 
 .custom-projects {
-  margin-inline: 0.75rem;
+  margin-inline: 0.46rem;
 }
 
 .sidebar-bg {
