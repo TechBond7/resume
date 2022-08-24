@@ -165,10 +165,4 @@ export default defineComponent({
   margin-left: auto;
   margin-right: auto;
 }
-
-@media screen and (max-width: 960px) {
-  .p-sidebar-right {
-    width: auto;
-  }
-}
 </style>

@@ -66,4 +66,14 @@ export default {
 .p-button.p-button-icon-only {
   border-radius: 0.5rem;
 }
+
+@media screen and (max-width: 960px) {
+  .custom-list-item {
+    margin-bottom: 2rem;
+  }
+
+  .p-sidebar-right {
+    width: auto;
+  }
+}
 </style>
