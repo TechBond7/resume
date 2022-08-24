@@ -4,7 +4,7 @@
     <ul class="custom-link-wrapper">
       <li class="custom-list-item">
         <router-link :to="'/'">
-          <font-awesome-icon icon="fa-solid fa-calendar-days" class="custom-timeline">
+          <font-awesome-icon icon="fa-solid fa-list" class="custom-timeline">
           </font-awesome-icon>
           Timeline
         </router-link>
@@ -45,14 +45,10 @@ export default {
   margin: 0.75rem 2rem 0.75rem 2rem;
 }
 
-.custom-timeline {
-  font-size: larger;
-  margin-inline: 0.25rem;
-}
-
+.custom-timeline,
 .custom-projects {
   font-size: larger;
-  margin-inline: 0.2rem;
+  margin-inline: 0.25rem;
 }
 
 .sidebar-bg {

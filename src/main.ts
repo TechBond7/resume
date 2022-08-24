@@ -13,7 +13,7 @@ import AccordionTab from "primevue/accordiontab";
 import Button from "primevue/button";
 import ScrollTop from "primevue/scrolltop";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCalendarDays, faFolder } from "@fortawesome/free-solid-svg-icons";
+import { faList, faFolder } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import "primevue/resources/themes/luna-amber/theme.css";
@@ -22,7 +22,7 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css"
 import "animate.css";
 
-library.add(faCalendarDays, faFolder);
+library.add(faList, faFolder);
 
 createApp(App)
     .use(router)
