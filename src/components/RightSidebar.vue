@@ -1,15 +1,17 @@
 <template>
   <Sidebar class="sidebar-bg" :visible="isVisible"
     @update:visible="(value: boolean) => $emit('update:isVisible', value)" :baseZIndex="1" position="right">
-    <ul>
-      <li class="router-link">
+    <ul class="custom-link-wrapper">
+      <li class="custom-list-item">
         <router-link :to="'/'">
-          <i class="pi pi-history custom-icon"></i>Timeline
+          <i class="fa-solid fa-timeline custom-rotate-90 custom-timeline"></i>
+          Timeline
         </router-link>
       </li>
-      <li class="router-link">
+      <li>
         <router-link :to="'/projects'">
-          <i class="pi pi-folder custom-icon"></i>Projects
+          <i class="fa-solid fa-file-code custom-projects custom-projects"></i>
+          Projects
         </router-link>
       </li>
     </ul>
@@ -29,12 +31,32 @@ export default {
   --custom-black: black;
 }
 
-.custom-icon {
-  margin-right: 0.5rem;
+.custom-link-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.router-link {
-  margin: 1rem;
+.custom-list-item {
+  margin-bottom: 1rem;
+}
+
+.custom-rotate-90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.custom-timeline {
+  margin-inline: 0.5rem;
+}
+
+.custom-projects {
+  margin-inline: 0.8rem;
 }
 
 .sidebar-bg {
