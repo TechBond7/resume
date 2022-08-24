@@ -102,7 +102,8 @@ export default defineComponent({
 
 .github {
   color: var(--tertiary-text);
-  margin: 1rem 0 0.5rem 0rem;
+  margin: 1rem 0 0.5rem 0;
+  max-width: 20rem;
   font-family: sans-serif;
   font-size: 0.7rem;
   display: flex;

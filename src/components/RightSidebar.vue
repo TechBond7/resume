@@ -56,7 +56,7 @@ export default {
 }
 
 .custom-projects {
-  margin-inline: 0.8rem;
+  margin-inline: 0.75rem;
 }
 
 .sidebar-bg {
