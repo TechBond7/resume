@@ -35,14 +35,16 @@ interface apiType {
 export const api: apiType = {
     getRepos: () => fetch(reposUrl).then(response => response.json()).then(data => store.repos = data).catch(error => console.log(error)),
     getUpdatedRepo: () => {
-        store.repo = store.repos.reduce((current, next) => new Date(current.pushed_at) > new Date(next.pushed_at) ? current : next, store.repos[0]).name;
+        if (store.repos.length)
+            store.repo = store.repos.reduce((current, next) => new Date(current.pushed_at) > new Date(next.pushed_at) ? current : next, store.repos[0]).name;
     },
     getLastCommit: () => {
-        fetch(commitsUrl.replace("replaceMe", store.repo)).then(response => response.json()).then(data => {
-            store.date = data[0].commit.author.date.substring(0, 10);
-            store.message = data[0].commit.message;
-            store.sha = data[0].sha;
-            store.link = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`
-        }).catch(error => console.log(error));
+        if (store.repos.length)
+            fetch(commitsUrl.replace("replaceMe", store.repo)).then(response => response.json()).then(data => {
+                store.date = data[0].commit.author.date.substring(0, 10);
+                store.message = data[0].commit.message;
+                store.sha = data[0].sha;
+                store.link = `https://github.com/mezdelex/${store.repo}/commit/${store.sha}`
+            }).catch(error => console.log(error));
     }
 }

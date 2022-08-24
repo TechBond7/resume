@@ -15,7 +15,7 @@
         Alejandro Conde Gómez
         <span class="curly-brackets">}</span>
       </h1>
-      <h3 class="github">
+      <h3 class="github" v-show="store.link !== ''">
         <div class="date-and-link">
           <div>
             Last activity:

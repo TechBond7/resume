@@ -128,11 +128,14 @@ interface apiType {
 
 export const api: apiType = {
     sortProjects: () => {
-        store.projects = projects.map(project => {
-            if (project.id !== "")
-                project.pushed_at = githubStore.repos.filter(repo => repo.name === project.id)[0]?.pushed_at;
+        if (githubStore.repos.length)
+            store.projects = projects.map(project => {
+                if (project.id !== "")
+                    project.pushed_at = githubStore.repos.filter(repo => repo.name === project.id)[0]?.pushed_at;
 
-            return project;
-        }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
+                return project;
+            }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
+        else
+            store.projects = projects;
     }
 }
