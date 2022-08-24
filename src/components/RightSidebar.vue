@@ -4,13 +4,15 @@
     <ul class="custom-link-wrapper">
       <li class="custom-list-item">
         <router-link :to="'/'">
-          <font-awesome-icon icon="fa-solid fa-timeline" class="custom-rotate-90 custom-timeline"></font-awesome-icon>
+          <font-awesome-icon icon="fa-solid fa-calendar-days" class="custom-timeline">
+          </font-awesome-icon>
           Timeline
         </router-link>
       </li>
-      <li>
+      <li class="custom-list-item">
         <router-link :to="'/projects'">
-          <font-awesome-icon icon="fa-solid fa-file-code" class="custom-projects custom-projects"></font-awesome-icon>
+          <font-awesome-icon icon="fa-solid fa-folder" class="custom-projects">
+          </font-awesome-icon>
           Projects
         </router-link>
       </li>
@@ -40,23 +42,17 @@ export default {
 }
 
 .custom-list-item {
-  margin-bottom: 1rem;
-}
-
-.custom-rotate-90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  margin: 0.75rem 2rem 0.75rem 2rem;
 }
 
 .custom-timeline {
-  margin-inline: 0.2rem;
+  font-size: larger;
+  margin-inline: 0.25rem;
 }
 
 .custom-projects {
-  margin-inline: 0.46rem;
+  font-size: larger;
+  margin-inline: 0.2rem;
 }
 
 .sidebar-bg {
@@ -68,10 +64,6 @@ export default {
 }
 
 @media screen and (max-width: 960px) {
-  .custom-list-item {
-    margin-bottom: 2rem;
-  }
-
   .p-sidebar-right {
     width: auto;
   }
