@@ -40,7 +40,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/LeetCode",
         app: "https://leetcode.com/mezdelex",
         description:
-            "A journey started in April 2022 to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using .NET's xUnit and Rustlang's built in library for Unit Testing. Coded with VS Code.",
+            "A journey started in April 2022 to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using .NET's xUnit and Rustlang's built in library for unit testing. Also added rust_tests job via GitHub Actions as a CI pipeline to run tests server side. Coded with VS Code.",
     },
     {
         id: "Resume",
