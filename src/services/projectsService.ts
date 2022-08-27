@@ -46,7 +46,7 @@ const projects: Array<projectType> = [
         id: "Resume",
         pushed_at: "",
         name: "Resume",
-        image: require("@/assets/resume.jpg"),
+        image: require("@/assets/resume.png"),
         repo: "https://github.com/mezdelex/Resume",
         app: "https://www.mezdelex.com",
         description:
