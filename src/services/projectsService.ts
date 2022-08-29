@@ -40,7 +40,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/LeetCode",
         app: "https://leetcode.com/mezdelex",
         description:
-            "A journey started in April 2022 to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using .NET's xUnit and Rustlang's built in library for unit testing. Also added rust_tests job via GitHub Actions as a CI pipeline to run tests server side. Coded with VS Code.",
+            "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with VS Code.",
     },
     {
         id: "Resume",
@@ -90,7 +90,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/AoC2020",
         app: "https://adventofcode.com/2020",
         description:
-            "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Used VS Code as IDE.",
+            "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Coded with VS Code.",
     },
     {
         id: "HackerRank",
@@ -100,7 +100,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/HackerRank",
         app: "https://www.hackerrank.com/alexcondegomez",
         description:
-            "Algorithmic problem solving to achieve Java's JDK 11+ language proficiency in both imperative and declarative paradigms. Used VS Code as IDE.",
+            "Algorithmic problem solving to achieve Java's JDK 11+ language proficiency in both imperative and declarative paradigms. Coded with VS Code.",
     },
     {
         id: "Trivia",
