@@ -7,7 +7,7 @@
       <img class="selfie" :src="require('@/assets/alejandro.jpg')" />
       <h2 class="subTitle">
         <span class="decorator">|</span>
-        <span class="software-developer">software_developer</span>
+        <span class="software-developer">polyglot_software_developer</span>
         <span class="decorator">|</span>
       </h2>
       <h1 class="title">
