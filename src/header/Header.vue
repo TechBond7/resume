@@ -96,6 +96,7 @@ export default defineComponent({
 .subTitle {
   margin: 0;
   margin-top: 1rem;
+  margin-bottom: 0.2rem;
   font-family: sans-serif;
   font-size: 1rem;
 }
