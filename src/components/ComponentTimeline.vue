@@ -75,7 +75,7 @@ export default defineComponent({
       {
         icon: "pi pi-code",
         what: "Hodeia Digital",
-        date: "2022-present",
+        date: "2022-Present",
         activity: "Software development",
         where: "https://www.hodeia.digital",
         stack: "PHP, Laravel, Javascript, Typescript, Angular, DBeaver, MySQL, Git, Helix Editor, Visual Studio Code, Windows Terminal, Powershell Core...",
@@ -84,7 +84,7 @@ export default defineComponent({
       {
         icon: "pi pi-code",
         what: "Ibermática",
-        date: "2022-2022",
+        date: "2022-2022 (6 months)",
         activity: "Software development",
         where: "https://www.ibermatica.com/",
         stack: ".NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
@@ -93,10 +93,10 @@ export default defineComponent({
       {
         icon: "pi pi-code",
         what: "D&A Innovative Systems",
-        date: "2021-2022",
+        date: "2021-2022 (6 months)",
         activity: "Software development",
         where: "https://www.innovative-systems.es/",
-        stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, VS Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
+        stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
         tasks: ["1. Created a scrapper written in Python to obtain all the information from a known wine forum and then processed the data against face recognition OpenCV library and international name database to determine age ranges and genre of potential target clients.", "2. Implemented new functionalities in the platform of the company for both backend and frontend improving the existing codebase.", "3. Added a completely new functionality from scratch which automated logistic status of different devices based on their geolocalized position with respect to a user defined location or moving entities.", "4. Other minor implementations and bug fixes."]
       },
       {
