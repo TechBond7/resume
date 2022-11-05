@@ -33,6 +33,9 @@
       </h3>
       <div class="social">
         <a href="https://github.com/mezdelex" class="pi pi-github socialLink p-mr-2" />
+        <a href="https://stackoverflow.com/users/15234817/mezdelex">
+          <font-awesome-icon icon="fa-brands fa-stack-overflow" class="socialLink custom-social-icon p-mr-2" />
+        </a>
         <a href="https://www.linkedin.com/in/mezdelex/" class="pi pi-linkedin socialLink p-mr-2" />
         <a href="https://www.reddit.com/user/Mezdelex" class="pi pi-reddit socialLink p-mr-2" />
         <a href="https://t.me/mezdelex" class="pi pi-telegram socialLink" />
@@ -72,6 +75,7 @@ export default defineComponent({
   --primary-text: orange;
   --secondary-text: green;
   --tertiary-text: #7daea3;
+  --quaternary-text: black;
 }
 
 .curly-brackets {
@@ -136,6 +140,15 @@ export default defineComponent({
   text-align: center;
 }
 
+.custom-social-icon {
+  height: 1.60rem;
+  width: 1.60rem;
+  background-color: var(--primary-text);
+  color: var(--quaternary-text);
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
 .socialLink {
   transition: transform 0.3s ease;
   transform: translateY(0px);
@@ -154,7 +167,7 @@ export default defineComponent({
 }
 
 .header {
-  background: black;
+  background: var(--quaternary-text);
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }

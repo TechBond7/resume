@@ -14,6 +14,7 @@ import Button from "primevue/button";
 import ScrollTop from "primevue/scrolltop";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faList, faFolder } from "@fortawesome/free-solid-svg-icons";
+import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import "primevue/resources/themes/luna-amber/theme.css";
@@ -22,7 +23,7 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css"
 import "animate.css";
 
-library.add(faList, faFolder);
+library.add(faList, faFolder, faStackOverflow);
 
 createApp(App)
     .use(router)
