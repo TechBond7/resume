@@ -76,6 +76,7 @@ export default defineComponent({
   --secondary-text: green;
   --tertiary-text: #7daea3;
   --quaternary-text: black;
+  --quinary-text: #f8ca57;
 }
 
 .curly-brackets {
@@ -147,6 +148,10 @@ export default defineComponent({
   color: var(--quaternary-text);
   border-radius: 50%;
   padding: 0.3rem;
+}
+
+.custom-social-icon:hover {
+  background-color: var(--quinary-text);
 }
 
 .socialLink {
