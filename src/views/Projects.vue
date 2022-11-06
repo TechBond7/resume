@@ -44,6 +44,7 @@ export default defineComponent({
 .cardHover:hover {
   transform: scale3d(1.1, 1.1, 1.1);
   background-color: var(--custom-orange);
+  color: var(--custom-background);
 }
 
 .p-card {
