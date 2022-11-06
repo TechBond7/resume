@@ -23,10 +23,16 @@
       <template #footer v-if="project.repo">
         <div class="p-d-flex p-flex-row p-jc-around p-ai-end">
           <a :href="project.repo" target="_">
-            <Button label="Repo" icon="pi pi-github" class="buttonHover p-button p-button-text" />
+            <div class="linkHover">
+              <i class="pi pi-github"></i>
+              Repo
+            </div>
           </a>
           <a :href="project.app" :alt="project.app" target="_">
-            <Button label="Link" icon="pi pi-link" class="buttonHover p-button p-button-text" />
+            <div class="linkHover">
+              <i class="pi pi-link"></i>
+              Link
+            </div>
           </a>
         </div>
       </template>

@@ -27,19 +27,23 @@ export default defineComponent({
   --custom-orange: orange;
 }
 
-.buttonHover,
+.linkHover,
 .cardHover {
+  font-family: sans-serif;
   transition: transform 0.2s ease;
   transform: scale3d(1, 1, 1);
+  color: var(--custom-green);
 }
 
-.buttonHover:hover,
+.linkHover {
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.linkHover:hover,
 .cardHover:hover {
   transform: scale3d(1.1, 1.1, 1.1);
-}
-
-.p-button.p-button-text {
-  color: var(--custom-green);
+  background-color: var(--custom-orange);
 }
 
 .p-card {
