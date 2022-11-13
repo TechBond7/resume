@@ -74,15 +74,6 @@ export default defineComponent({
       },
       {
         icon: "pi pi-code",
-        what: "Hodeia Digital",
-        date: "2022-Present",
-        activity: "Software development",
-        where: "https://www.hodeia.digital",
-        stack: "PHP, Javascript, MySQL, MySQL Workbench, Postman, Apache, Docker, Git, Azure DevOps, Visual Studio Code, Windows Terminal, Powershell Core...",
-        tasks: ["To be determined..."]
-      },
-      {
-        icon: "pi pi-code",
         what: "Ibermática",
         date: "2022-2022 (6 months)",
         activity: "Software development",
