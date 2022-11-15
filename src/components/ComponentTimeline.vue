@@ -26,16 +26,14 @@
           <Accordion>
             <AccordionTab header="Stack">
               <p class="accordionText">
-                {{ slotProps.item.stack }}
+                 {{ slotProps.item.stack }}
               </p>
             </AccordionTab>
           </Accordion>
-          <Accordion v-if="slotProps.item.tasks.length != 0">
+          <Accordion v-if="slotProps.item.tasks.length">
             <AccordionTab header="Tasks">
-              <p class="accordionText" v-for="task in slotProps.item.tasks">
-              <p>
-                {{ task }}
-              </p>
+              <p class="accordionText" v-for="task in slotProps.item.tasks" :key="task">
+                 {{ task }}
               </p>
             </AccordionTab>
           </Accordion>
