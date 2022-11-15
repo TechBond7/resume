@@ -21,7 +21,7 @@ export default defineComponent({
 
 <style>
 :root {
-  --custom-background: #323232;
+  --custom-background: #282828;
   --custom-blue: #7daea3;
   --custom-green: green;
   --custom-orange: orange;
