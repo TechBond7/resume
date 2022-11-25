@@ -26,14 +26,14 @@
           <Accordion>
             <AccordionTab header="Stack">
               <p class="accordionText">
-                 {{ slotProps.item.stack }}
+                {{ slotProps.item.stack }}
               </p>
             </AccordionTab>
           </Accordion>
           <Accordion v-if="slotProps.item.tasks.length">
             <AccordionTab header="Tasks">
               <p class="accordionText" v-for="task in slotProps.item.tasks" :key="task">
-                 {{ task }}
+                {{ task }}
               </p>
             </AccordionTab>
           </Accordion>
@@ -67,21 +67,30 @@ export default defineComponent({
         date: "2021-Present",
         activity: "Software development",
         where: "https://www.mezdelex.com/",
-        stack: "Algorithms, Data Structures, Problem Solving, Rust, .NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
+        stack: "Algorithms, Data Structures, Problem Solving, Rust, .NET 6+, EF Core 6+ (Model/Code First) LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
         tasks: []
       },
       {
         icon: "pi pi-code",
-        what: "Ibermática",
+        what: "SmartWay Studio S.L.",
+        date: "2022-Present",
+        activity: "Software development",
+        where: "https://smartwaystudio.com/",
+        stack: "[Pending...] (.NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, Kafka, ElasticSearch, Docker, Kubernetes, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript...)",
+        tasks: ["[Pending...]"]
+      },
+      {
+        icon: "pi pi-code",
+        what: "Ibermática S.A.",
         date: "2022-2022 (6 months)",
         activity: "Software development",
         where: "https://www.ibermatica.com/",
-        stack: ".NET 6, Entity Framework (Model/Code First), Fluent API, LINQ, Swagger UI, Fluent UI, C#10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
+        stack: ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
         tasks: ["1. Restructured the already created code first DB schema with the addition of required and missing tables based on the client requirements.", "2. Rewrote many parts and added others to the already created .NET MVC RESTful API.", "3. Rewrote many parts and added others to the already created .NET Xamarin.Forms MVVM mobile app.", "4. Created from scratch the ASP.NET Razor MVC web app to manage all the information generated from the mobile app and contained in the DB.", "5. Created the corresponding apps in Azure AD Identity Platform in order to allow authentication and authorization via MSAL between apps.", "6. Used Azure DevOps platform together with Git and Clockify for version control and backlog, task and time management."]
       },
       {
         icon: "pi pi-code",
-        what: "D&A Innovative Systems",
+        what: "D&A Innovative Systems S.L.",
         date: "2021-2022 (6 months)",
         activity: "Software development",
         where: "https://www.innovative-systems.es/",
@@ -89,7 +98,7 @@ export default defineComponent({
         tasks: ["1. Created a scrapper written in Python to obtain all the information from a known wine forum and then processed the data against face recognition OpenCV library and international name database to determine age ranges and genre of potential target clients.", "2. Implemented new functionalities in the platform of the company for both backend and frontend improving the existing codebase.", "3. Added a completely new functionality from scratch which automated logistic status of different devices based on their geolocalized position with respect to a user defined location or moving entities.", "4. Other minor implementations and bug fixes."]
       },
       {
-        icon: "pi pi-code",
+        icon: "pi pi-briefcase",
         what: "Advanced Java Development & RDBMS",
         date: "2020-2021",
         activity: "Software development",
@@ -98,7 +107,7 @@ export default defineComponent({
         tasks: []
       },
       {
-        icon: "pi pi-code",
+        icon: "pi pi-briefcase",
         what: "BBK Bootcamp Full Stack .NET Core",
         date: "2019-2020",
         activity: "Software development",
