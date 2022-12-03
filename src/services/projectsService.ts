@@ -13,6 +13,16 @@ interface projectType {
 
 const projects: Array<projectType> = [
     {
+        id: "AoC2022",
+        pushed_at: "2022-12-03T07:40:47Z",
+        name: "Advent of Code (2022)",
+        image: require("@/assets/aoc2022.png"),
+        repo: "https://github.com/mezdelex/AoC2022",
+        app: "https://adventofcode.com/2022",
+        description:
+            "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, lambdas and expression bodied members. Coded with VS Code.",
+    },
+    {
         id: "",
         pushed_at: "2022-05-19T07:40:47Z",
         name: "Touch Typing",
@@ -86,7 +96,7 @@ const projects: Array<projectType> = [
         id: "AoC2020",
         pushed_at: "",
         name: "Advent of Code (2020)",
-        image: require("@/assets/advent_of_code.png"),
+        image: require("@/assets/aoc2020.png"),
         repo: "https://github.com/mezdelex/AoC2020",
         app: "https://adventofcode.com/2020",
         description:
