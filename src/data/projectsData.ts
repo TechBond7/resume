@@ -1,17 +1,6 @@
-import { reactive, ref } from "vue";
-import { store as githubStore } from "@/services/githubService"
+import IProject from "@/models/IProject";
 
-interface projectType {
-    id: string,
-    pushed_at: string,
-    name: string,
-    image: string,
-    repo: string,
-    app: string,
-    description: string
-}
-
-const projects: Array<projectType> = [
+export const projectsData: Array<IProject> = [
     {
         id: "AoC2022",
         pushed_at: "2022-12-03T07:40:47Z",
@@ -123,29 +112,3 @@ const projects: Array<projectType> = [
             "My first Web App back in 2020 done with Javascript, HTML, CSS and Bootstrap consuming an external Trivia API that required token authorization to be accessed. Coded with VS Code.",
     }
 ];
-
-interface storeType {
-    projects: Array<projectType>,
-}
-
-export const store: storeType = reactive({
-    projects: ref([])
-});
-
-interface apiType {
-    sortProjects: () => void
-}
-
-export const api: apiType = {
-    sortProjects: () => {
-        if (githubStore.repos.length)
-            store.projects = projects.map(project => {
-                if (project.id !== "")
-                    project.pushed_at = githubStore.repos.filter(repo => repo.name === project.id)[0]?.pushed_at;
-
-                return project;
-            }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
-        else
-            store.projects = projects;
-    }
-}

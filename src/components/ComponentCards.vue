@@ -1,7 +1,7 @@
 <template>
   <div class="p-grid">
     <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
-      style="width: 25rem; height: 36rem" v-for="project in store.projects" :key="project.name">
+      style="width: 25rem; height: 36rem" v-for="project in projectsStore.projects" :key="project.name">
       <template #header>
         <span class="last-update">
           Last update: <i class="pi pi-cloud-upload text-small"></i> {{ project.pushed_at ?
@@ -41,13 +41,14 @@
 </template>
 <script lang="ts">
 import { defineComponent, watchEffect } from "vue";
-import { api, store } from "@/services/projectsService"
+import { projectsService } from "@/services/projects/projectsService"
+import { projectsStore } from "@/shared/projectsStore";
 
 export default defineComponent({
   setup() {
-    watchEffect(() => api.sortProjects());
+    watchEffect(() => projectsService.sortProjects());
 
-    return { store };
+    return { projectsStore };
   },
 });
 </script>

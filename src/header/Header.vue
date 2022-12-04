@@ -15,20 +15,20 @@
         Alejandro Conde Gómez
         <span class="curly-brackets">}</span>
       </h1>
-      <h3 class="github" v-show="store.link !== ''">
+      <h3 class="github" v-show="repositoriesStore.link !== ''">
         <div class="date-and-link">
           <div>
             Last activity:
-            <span class="custom-date">{{ store.date }}</span>
+            <span class="custom-date">{{ repositoriesStore.date }}</span>
           </div>
           <div>
             Commit:
-            <a class="custom-link" :href="store.link" target="_blank">Link</a>
+            <a class="custom-link" :href="repositoriesStore.link" target="_blank">Link</a>
           </div>
         </div>
         <div class="custom-message-container">
           Message:
-          <span class="custom-message">{{ store.message }}</span>
+          <span class="custom-message">{{ repositoriesStore.message }}</span>
         </div>
       </h3>
       <div class="social">
@@ -48,7 +48,8 @@
 <script lang="ts">
 import { ref, defineComponent, Ref, onMounted } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
-import { store, api } from "@/services/githubService";
+import { gitHubService } from "@/services/github/gitHubService"
+import { repositoriesStore } from "@/shared/repositoriesStore";
 
 export default defineComponent({
   components: {
@@ -58,14 +59,14 @@ export default defineComponent({
     const showSidebar: Ref<boolean> = ref(false);
 
     onMounted(async () => {
-      if (store.link === "") {
-        await api.getRepos();
-        api.getUpdatedRepo();
-        api.getLastCommit();
+      if (repositoriesStore.link === "") {
+        await gitHubService.getRepos();
+        gitHubService.getUpdatedRepo();
+        gitHubService.getLastCommit();
       }
     });
 
-    return { showSidebar, store };
+    return { showSidebar, repositoriesStore };
   },
 });
 </script>
