@@ -76,7 +76,7 @@ export default defineComponent({
         date: "2022-Present",
         activity: "Software development",
         where: "https://smartwaystudio.com/",
-        stack: "[Pending...] (.NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, Kafka, ElasticSearch, Docker, Kubernetes, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript...)",
+        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, Kafka, RabbitMQ, ElasticSearch, Docker, Kubernetes, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript...",
         tasks: ["[Pending...]"]
       },
       {
