@@ -20,7 +20,7 @@ const projects: Array<projectType> = [
         repo: "https://github.com/mezdelex/AoC2022",
         app: "https://adventofcode.com/2022",
         description:
-            "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, lambdas and expression bodied members. Using Github Actions for xUnit CI pipelines. Coded with VS Code.",
+            "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, lambdas and expression bodied members. Using GitHub Actions as CI pipelines to run xUnit unit test jobs. Coded with VS Code.",
     },
     {
         id: "",
