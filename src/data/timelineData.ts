@@ -16,7 +16,7 @@ export const timelineData: Array<ITimeline> = [
         date: "2022-Present",
         activity: "Software development",
         where: "https://smartwaystudio.com/",
-        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle...",
+        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
         tasks: ["[Pending...]"]
     },
     {
@@ -34,7 +34,7 @@ export const timelineData: Array<ITimeline> = [
         date: "2021-2022 (6 months)",
         activity: "Software development",
         where: "https://www.innovative-systems.es/",
-        stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Development, Markdown, Holded, Bug Fixing, Time & Task Management...",
+        stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, Markdown, Holded, Bug Fixing, Time & Task Management...",
         tasks: ["1. Created a scrapper written in Python to obtain all the information from a known wine forum and then processed the data against face recognition OpenCV library and international name database to determine age ranges and genre of potential target clients.", "2. Implemented new functionalities in the platform of the company for both backend and frontend improving the existing codebase.", "3. Added a completely new functionality from scratch which automated logistic status of different devices based on their geolocalized position with respect to a user defined location or moving entities.", "4. Other minor implementations and bug fixes."]
     },
     {
