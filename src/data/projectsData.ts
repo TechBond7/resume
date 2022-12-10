@@ -2,16 +2,6 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
-        id: "AoC2022",
-        pushed_at: "2022-12-03T07:40:47Z",
-        name: "Advent of Code (2022)",
-        image: require("@/assets/aoc2022.png"),
-        repo: "https://github.com/mezdelex/AoC2022",
-        app: "https://adventofcode.com/2022",
-        description:
-            "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, lambdas and expression bodied members. Using GitHub Actions as CI pipelines to run xUnit unit test jobs. Coded with VS Code.",
-    },
-    {
         id: "",
         pushed_at: "2022-05-19T07:40:47Z",
         name: "Touch Typing",
