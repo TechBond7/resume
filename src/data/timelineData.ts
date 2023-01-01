@@ -16,8 +16,8 @@ export const timelineData: Array<ITimeline> = [
         date: "2022-Present",
         activity: "Software development",
         where: "https://smartwaystudio.com/",
-        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, xUnit, SonarQube, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
-        tasks: ["[Pending...]"]
+        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, xUnit, SonarQube, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture, Neovim...",
+        tasks: ["1. Tasks related to the development of certain modules of a microservice based enterprise management platform for an emerging national IT company.", "2. Bug fixing of the aforementioned platform.", "3. Pull requests management."]
     },
     {
         icon: "pi pi-code",
