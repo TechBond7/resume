@@ -7,7 +7,7 @@ export const timelineData: Array<ITimeline> = [
         date: "2021-Present",
         activity: "Software development",
         where: "https://www.mezdelex.com/",
-        stack: "Algorithms, Data Structures, Problem Solving, Rust, .NET 6+, EF Core 6+ (Model/Code First) LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Neovim, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
+        stack: "Algorithms, Data Structures, Problem Solving, Rust, .NET 6+, EF Core 6+ (Model/Code First) LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
         tasks: []
     },
     {
@@ -16,7 +16,7 @@ export const timelineData: Array<ITimeline> = [
         date: "2022-Present",
         activity: "Software development",
         where: "https://smartwaystudio.com/",
-        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, xUnit, SonarQube, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture, Neovim...",
+        stack: ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, xUnit, SonarQube, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API), Nuxt 3, PrimeVue 3, Pinia, Typescript, Javascript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
         tasks: ["1. Tasks related to the development of certain modules of a microservice based enterprise management platform for an emerging national IT company.", "2. Bug fixing of the aforementioned platform.", "3. Pull requests management."]
     },
     {
