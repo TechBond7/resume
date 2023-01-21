@@ -1,5 +1,5 @@
 <template>
-    <Sidebar class="sidebar-bg" :visible="isVisible"
+    <Sidebar class="sidebar-bg sidebar-width" :visible="isVisible"
         @update:visible="(value: boolean) => $emit('update:isVisible', value)" :baseZIndex="1" position="right">
         <ul class="custom-link-wrapper">
             <li class="custom-list-item">
@@ -53,5 +53,11 @@ defineProps({ isVisible: Boolean })
 
 .p-button.p-button-icon-only {
     border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .sidebar-width {
+        width: auto;
+    }
 }
 </style>
