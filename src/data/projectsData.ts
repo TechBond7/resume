@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "NeovimConfig",
+        pushed_at: "",
+        name: "Neovim",
+        image: require("@/assets/neovim.png"),
+        repo: "https://github.com/mezdelex/NeovimConfig",
+        app: "https://neovim.io/",
+        description:
+            "Fully functional Neovim config of my PDE with LSP support, syntax highlighting, linting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, etc.",
+    },
+    {
         id: "",
         pushed_at: "2022-05-19T07:40:47Z",
         name: "Touch Typing",

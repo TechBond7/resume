@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">I use <del>Neovim</del> VSCode, by the way.</div>
+    <div class="footer">To Vim or not to Vim</div>
 </template>
 
 <style scoped>
