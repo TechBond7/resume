@@ -54,10 +54,4 @@ defineProps({ isVisible: Boolean })
 .p-button.p-button-icon-only {
     border-radius: 0.5rem;
 }
-
-@media screen and (max-width: 960px) {
-    .p-sidebar-right {
-        width: auto;
-    }
-}
 </style>
