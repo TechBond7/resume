@@ -57,7 +57,7 @@ defineProps({ isVisible: Boolean })
 
 @media screen and (max-width: 960px) {
     .sidebar-width {
-        width: auto;
+        width: auto !important;
     }
 }
 </style>
