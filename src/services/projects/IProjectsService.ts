@@ -1,3 +1,3 @@
 export default interface IProjectsService {
-    sortProjects: () => void
+  sortProjects: () => void;
 }

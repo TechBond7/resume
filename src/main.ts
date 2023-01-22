@@ -1,6 +1,4 @@
-import {
-    createApp
-} from "vue";
+import { createApp } from "vue";
 import App from "@/App.vue";
 import router from "@/router";
 import PrimeVue from "primevue/config";
@@ -20,23 +18,23 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "primevue/resources/themes/luna-amber/theme.css";
 import "primevue/resources/primevue.min.css";
 import "primeflex/primeflex.css";
-import "primeicons/primeicons.css"
+import "primeicons/primeicons.css";
 import "animate.css";
 
 library.add(faList, faFolder, faStackOverflow);
 
 createApp(App)
-    .use(router)
-    .use(PrimeVue, {
-        ripple: true
-    })
-    .component("Timeline", Timeline)
-    .component("Card", Card)
-    .component("Sidebar", Sidebar)
-    .component("Fieldset", Fieldset)
-    .component("Accordion", Accordion)
-    .component("AccordionTab", AccordionTab)
-    .component("Button", Button)
-    .component("ScrollTop", ScrollTop)
-    .component("font-awesome-icon", FontAwesomeIcon)
-    .mount("#app");
+  .use(router)
+  .use(PrimeVue, {
+    ripple: true,
+  })
+  .component("Timeline", Timeline)
+  .component("Card", Card)
+  .component("Sidebar", Sidebar)
+  .component("Fieldset", Fieldset)
+  .component("Accordion", Accordion)
+  .component("AccordionTab", AccordionTab)
+  .component("Button", Button)
+  .component("ScrollTop", ScrollTop)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");
