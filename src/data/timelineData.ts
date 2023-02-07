@@ -8,7 +8,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://www.mezdelex.com/",
     stack:
-      "Algorithms, Data Structures, Problem Solving, Rust, .NET 6+, EF Core 6+ (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
+      "Algorithms, Data Structures, Problem Solving, Rust, .NET 6+, EF Core 6+ (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, xUnit, Java JDK 11+, Spring Boot 2+, Hibernate, QueryDSL, HATEOAS, JUnit, Mockito, Gradle, Maven, Python 3+, OpenCV, C++20, Boost, RESTful API, Javascript ES6, Typescript, jQuery, React 18+, Vue 3 (Options API/Composition API), PrimeVUE, Animate CSS, Router, Store, OAuth2, OpenID, JWT, Docker, Heroku, Netlify, CI/CD, YAML, Markdown, MSSQL, MySQL, DBeaver, SSMS, Transact-SQL, Stored Procedures, Triggers, Neovim, Visual Studio 2022, Visual Studio Code, Insomnia, Git, GitHub, GitHub Actions, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MVC, MVVM, DDD...",
     tasks: [],
   },
   {
@@ -18,7 +18,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://smartwaystudio.com/",
     stack:
-      ".NET 6+, EF Core 6+, LINQ, Fluent API, Swagger UI, C# 10+, xUnit, SonarQube, Kafka, RabbitMQ, Hangfire, Redis, ElasticSearch, Kibana, Docker, Kubernetes, YAML, Vue 3 (Composition API, Vite, PrimeVue 3, Pinia, Typescript, MySQL, Oracle, DBeaver, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
+      ".NET 6+, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Hangfire, Redis, Docker, Kubernetes, YAML, Vue 3 (Composition API), Typescript, Vite, PrimeVue 3, Pinia, MySQL, Oracle, DBeaver, Neovim, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
     tasks: [
       "1. Tasks related to the development of certain modules of a microservice based enterprise management platform for an emerging national IT company.",
       "2. Bug fixing of the aforementioned platform.",
@@ -30,11 +30,11 @@ export const timelineData: Array<ITimeline> = [
   {
     icon: "pi pi-code",
     what: "Ibermática S.A.",
-    date: "2022-2022 (6 months)",
+    date: "2022-2022 ",
     activity: "Software development",
     where: "https://www.ibermatica.com/",
     stack:
-      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, .NET MAUI?, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
+      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
     tasks: [
       "1. Restructured the already created code first DB schema with the addition of required and missing tables based on the client requirements.",
       "2. Rewrote many parts and added others to the already created .NET MVC RESTful API.",
@@ -47,7 +47,7 @@ export const timelineData: Array<ITimeline> = [
   {
     icon: "pi pi-code",
     what: "D&A Innovative Systems S.L.",
-    date: "2021-2022 (6 months)",
+    date: "2021-2022",
     activity: "Software development",
     where: "https://www.innovative-systems.es/",
     stack:
