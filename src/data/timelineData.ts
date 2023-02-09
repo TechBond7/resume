@@ -34,7 +34,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://www.ibermatica.com/",
     stack:
-      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, MVC, MVVM...",
+      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
     tasks: [
       "1. Restructured the already created code first DB schema with the addition of required and missing tables based on the client requirements.",
       "2. Rewrote many parts and added others to the already created .NET MVC RESTful API.",
