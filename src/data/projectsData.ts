@@ -9,7 +9,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/mezdelex/NeovimConfig",
     app: "https://neovim.io/",
     description:
-      "Fully functional Neovim config of my PDE with LSP support, syntax highlighting, linting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, etc.",
+      "Fully functional daily driver Neovim config with LSP support, auto language server installation, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
   },
   {
     id: "",
