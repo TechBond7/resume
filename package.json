@@ -20,7 +20,8 @@
     "primevue": "^3.3.5",
     "vue": "^3.2.26",
     "vue-class-component": "^8.0.0-0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
