@@ -1,6 +1,6 @@
 export default interface ITimeline {
   icon: string;
-  what: string;
+  title: string;
   date: string;
   activity: string;
   where: string;

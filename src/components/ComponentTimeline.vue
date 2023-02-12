@@ -9,7 +9,7 @@
     </template>
     <template #content="slotProps">
       <div :class="conditionalFade()">
-        <Fieldset class="fieldsetHover" :legend="slotProps.item.what">
+        <Fieldset class="fieldsetHover" :legend="slotProps.item.title">
           <ul>
             <li class="custom-info">
               {{ slotProps.item.date }} <i class="pi pi-box text-small"></i>

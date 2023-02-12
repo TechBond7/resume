@@ -3,7 +3,7 @@ import ITimeline from "@/models/ITimeline";
 export const timelineData: Array<ITimeline> = [
   {
     icon: "pi pi-code",
-    what: "Self Taught",
+    title: "Self Taught",
     date: "2021-Present",
     activity: "Software development",
     where: "https://www.mezdelex.com/",
@@ -13,8 +13,8 @@ export const timelineData: Array<ITimeline> = [
   },
   {
     icon: "pi pi-code",
-    what: "SmartWay Studio S.L.",
-    date: "2022-Present",
+    title: "SmartWay Studio",
+    date: "2022-2023",
     activity: "Software development",
     where: "https://smartwaystudio.com/",
     stack:
@@ -29,7 +29,7 @@ export const timelineData: Array<ITimeline> = [
   },
   {
     icon: "pi pi-code",
-    what: "Ibermática S.A.",
+    title: "Ibermática",
     date: "2022-2022 ",
     activity: "Software development",
     where: "https://www.ibermatica.com/",
@@ -46,7 +46,7 @@ export const timelineData: Array<ITimeline> = [
   },
   {
     icon: "pi pi-code",
-    what: "D&A Innovative Systems S.L.",
+    title: "D&A Innovative Systems",
     date: "2021-2022",
     activity: "Software development",
     where: "https://www.innovative-systems.es/",
@@ -61,7 +61,7 @@ export const timelineData: Array<ITimeline> = [
   },
   {
     icon: "pi pi-briefcase",
-    what: "Advanced Java Development & RDBMS",
+    title: "Advanced Java Development & RDBMS",
     date: "2020-2021",
     activity: "Software development",
     where: "https://www.ipartek.com/",
@@ -71,7 +71,7 @@ export const timelineData: Array<ITimeline> = [
   },
   {
     icon: "pi pi-briefcase",
-    what: "BBK Bootcamp Full Stack .NET Core",
+    title: "BBK Bootcamp Full Stack .NET Core",
     date: "2019-2020",
     activity: "Software development",
     where: "https://bbkbootcamp.com/",

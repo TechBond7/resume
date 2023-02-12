@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">To Vim or not to Vim</div>
+  <div class="footer">I use Vim, by the way</div>
 </template>
 
 <style scoped>
