@@ -1130,6 +1130,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@discoveryjs/json-ext@0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
+  integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
+
 "@fortawesome/fontawesome-common-types@6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.3.0.tgz#51f734e64511dbc3674cd347044d02f4dd26e86b"
@@ -1488,9 +1493,9 @@
     "@types/estree" "*"
 
 "@types/eslint@*":
-  version "8.21.0"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.21.0.tgz#21724cfe12b96696feafab05829695d4d7bd7c48"
-  integrity sha512-35EhHNOXgxnUgh4XCJsGhE7zdlDhYDN/aMG6UbkByCFFNgQ7b3U+uVoqBpicFydR8JEfgdjCF7SJ7MiJfzuiTA==
+  version "8.21.1"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.21.1.tgz#110b441a210d53ab47795124dbc3e9bb993d1e7c"
+  integrity sha512-rc9K8ZpVjNcLs8Fp0dkozd5Pt2Apk1glO4Vgz8ix1u6yFByxfqo5Yavpy65o+93TAe24jr7v+eSBtFLvOQtCRQ==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -2813,7 +2818,7 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.21.3, browserslist@^4.21.4:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.21.3, browserslist@^4.21.4, browserslist@^4.21.5:
   version "4.21.5"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.5.tgz#75c5dae60063ee641f977e00edd3cfb2fb7af6a7"
   integrity sha512-tUkiguQGW7S3IhB7N+c2MV/HZPSCPAAiYBZXLsBhFB/PCy6ZKKsZrmBayHV9fdGV/ARIfJ14NkxKzRDjvp7L6w==
@@ -2944,9 +2949,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001426, caniuse-lite@^1.0.30001449:
-  version "1.0.30001451"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001451.tgz#2e197c698fc1373d63e1406d6607ea4617c613f1"
-  integrity sha512-XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==
+  version "1.0.30001452"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001452.tgz#dff7b8bb834b3a91808f0a9ff0453abb1fbba02a"
+  integrity sha512-Lkp0vFjMkBB3GTpLR8zk4NwW5EdRdnitwYJHDOOKIU85x4ckYCPQ+9WlVvSVClHxVReefkUMtWZH2l9KGlD51w==
 
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.4.0"
@@ -3287,16 +3292,16 @@ copy-webpack-plugin@^9.0.1:
     serialize-javascript "^6.0.0"
 
 core-js-compat@^3.25.1, core-js-compat@^3.8.3:
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.27.2.tgz#607c50ad6db8fd8326af0b2883ebb987be3786da"
-  integrity sha512-welaYuF7ZtbYKGrIy7y3eb40d37rG1FvzEOfe7hSLd2iD6duMDqUhRfSvCGyC46HhR6Y8JXXdZ2lnRUMkPBpvg==
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.28.0.tgz#c08456d854608a7264530a2afa281fadf20ecee6"
+  integrity sha512-myzPgE7QodMg4nnd3K1TDoES/nADRStM8Gpz0D6nhkwbmwEnE0ZGJgoWsvQ722FR8D7xS0n0LV556RcEicjTyg==
   dependencies:
-    browserslist "^4.21.4"
+    browserslist "^4.21.5"
 
 core-js@^3.6.5, core-js@^3.8.3:
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.27.2.tgz#85b35453a424abdcacb97474797815f4d62ebbf7"
-  integrity sha512-9ashVQskuh5AZEZ1JdQWp1GqSoC1e1G87MzRqg2gIfVAQ7Qn9K+uFj8EcniUFA4P2NLZfV+TOlX1SzoKfo+s7w==
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.28.0.tgz#ed8b9e99c273879fdfff0edfc77ee709a5800e4a"
+  integrity sha512-GiZn9D4Z/rSYvTeg1ljAIsEqFm0LaN9gVtwDCrKL80zHtS31p9BAjmTxVqTQDMpwlMolJZOFntUG2uwyj7DAqw==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -8103,10 +8108,11 @@ webidl-conversions@^3.0.0:
   integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
 
 webpack-bundle-analyzer@^4.4.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz#33c1c485a7fcae8627c547b5c3328b46de733c66"
-  integrity sha512-j9b8ynpJS4K+zfO5GGwsAcQX4ZHpWV+yRiHDiL+bE0XHJ8NiPYLTNVQdlFYWxtpg9lfAQNlwJg16J9AJtFSXRg==
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.8.0.tgz#951b8aaf491f665d2ae325d8b84da229157b1d04"
+  integrity sha512-ZzoSBePshOKhr+hd8u6oCkZVwpVaXgpw23ScGLFpR6SjYI7+7iIWYarjN6OEYOfRt8o7ZyZZQk0DuMizJ+LEIg==
   dependencies:
+    "@discoveryjs/json-ext" "0.5.7"
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
     chalk "^4.1.0"
@@ -8314,9 +8320,9 @@ write-file-atomic@^2.3.0:
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@^8.4.2:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.0.tgz#485074cc392689da78e1828a9ff23585e06cddd8"
-  integrity sha512-kU62emKIdKVeEIOIKVegvqpXMSTAMLJozpHZaJNDYqBjzlSYXQGviYwN1osDLJ9av68qHd4a2oSjd7yD4pacig==
+  version "8.12.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.1.tgz#c51e583d79140b5e42e39be48c934131942d4a8f"
+  integrity sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==
 
 xml2js@^0.4.19:
   version "0.4.23"
