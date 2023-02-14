@@ -56,6 +56,10 @@
           class="pi pi-linkedin socialLink p-mr-2"
         />
         <a
+          href="https://www.instagram.com/mezdelex/"
+          class="pi pi-instagram socialLink p-mr-2"
+        />
+        <a
           href="https://www.reddit.com/user/Mezdelex"
           class="pi pi-reddit socialLink p-mr-2"
         />
