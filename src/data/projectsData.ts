@@ -19,7 +19,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/mezdelex/AoC2022",
     app: "https://adventofcode.com/2022",
     description:
-      "Algorithmic problem solving to achieve further C# language proficiency in declarative paradigm using LINQ, Lambdas and Expression-Bodied members. Coded with Neovim.",
+      "Algorithmic problem solving to achieve further C# language proficiency in declarative paradigm using LINQ, Lambdas and Expression-Bodied members. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with Neovim.",
   },
   {
     id: "",
