@@ -49,7 +49,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/mezdelex/LeetCode",
     app: "https://leetcode.com/mezdelex",
     description:
-      "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with VS Code.",
+      "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with Neovim.",
   },
   {
     id: "Resume",
@@ -59,7 +59,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/mezdelex/Resume",
     app: "https://www.mezdelex.com",
     description:
-      "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with VS Code.",
+      "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with Neovim.",
   },
   {
     id: "Concesionario-SPA",
