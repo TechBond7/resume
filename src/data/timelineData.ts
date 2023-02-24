@@ -51,7 +51,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://www.innovative-systems.es/",
     stack:
-      "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, SQL, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, Markdown, Holded, Bug Fixing, Time & Task Management...",
+      "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, MariaDB, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, CQRS, Clean Architecture, Markdown, Holded, Bug Fixing, Time & Task Management...",
     tasks: [
       "1. Created a scrapper written in Python to obtain all the information from a known wine forum and then processed the data against face recognition OpenCV library and international name database to determine age ranges and genre of potential target clients.",
       "2. Implemented new functionalities in the platform of the company for both backend and frontend improving the existing codebase.",
@@ -66,7 +66,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://www.ipartek.com/",
     stack:
-      "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, VS Code, Insomnia, JSP, Servlets, Git, MVC, JSON...",
+      "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, Visual Studio Code, Insomnia, Java Server Pages, Servlets, Git, Model View Controller, JSON...",
     tasks: [],
   },
   {
@@ -76,7 +76,7 @@ export const timelineData: Array<ITimeline> = [
     activity: "Software development",
     where: "https://bbkbootcamp.com/",
     stack:
-      "C# .NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, VS Code, VS, MSSQL, SSMS, Rest API, JWT, MVC, Insomnia/Postman, JSON...",
+      ".NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, Visual Studio Code, Visual Studio, MSSQL, SQL Server Management Studio, Rest API, JSON Web Tokens, Model View Controller, Insomnia/Postman, JSON...",
     tasks: [],
   },
 ];
