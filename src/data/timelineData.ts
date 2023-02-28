@@ -4,7 +4,7 @@ export const timelineData: Array<ITimeline> = [
   {
     icon: "pi pi-code",
     title: "Self Taught",
-    date: "2021-Present",
+    date: "2020-Present",
     activity: "Software development",
     where: "https://www.mezdelex.com/",
     stack:
