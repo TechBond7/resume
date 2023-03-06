@@ -29,7 +29,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/monkeytypegame/monkeytype",
     app: "https://monkeytype.com/",
     description:
-      "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 106 WPM with 100% accuracy @ monkeytype default values.",
+      "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 117 WPM with 100% accuracy & 90% consistency @ monkeytype 15s typing test.",
   },
   {
     id: "Calculator",
