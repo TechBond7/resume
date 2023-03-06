@@ -23,7 +23,7 @@ export const projectsData: Array<IProject> = [
   },
   {
     id: "",
-    pushed_at: "2022-05-19T07:40:47Z",
+    pushed_at: "2023-03-06T07:40:47Z",
     name: "Touch Typing",
     image: require("@/assets/monkeytype.png"),
     repo: "https://github.com/monkeytypegame/monkeytype",
