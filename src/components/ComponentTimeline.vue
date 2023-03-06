@@ -12,7 +12,8 @@
         <Fieldset class="fieldsetHover" :legend="slotProps.item.title">
           <ul>
             <li class="custom-info">
-              {{ slotProps.item.date }} <i class="pi pi-box text-small"></i>
+              {{ slotProps.item.date }}
+              <i :class="`${Icons.Box} text-small`"></i>
               {{ slotProps.item.activity }}
             </li>
             <li v-if="hasUrl(slotProps.item.where)">
@@ -53,6 +54,7 @@
 </template>
 
 <script setup lang="ts">
+import { Icons } from "@/enums/enums";
 import { timelineData } from "@/data/timelineData";
 
 let counter: number = 0;

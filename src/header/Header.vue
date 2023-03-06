@@ -2,7 +2,7 @@
   <div class="header animate__animated animate__faster animate__fadeInDown">
     <div class="p-d-flex p-flex-row p-jc-end p-ai-start p-mr-3 p-pt-3">
       <Button
-        icon="pi pi-bars"
+        :icon="Icons.Bars"
         class="p-button-outlined p-button-warning"
         @click="showSidebar = true"
       />
@@ -43,23 +43,26 @@
       <div class="social">
         <a
           href="https://github.com/mezdelex"
-          class="pi pi-github socialLink p-mr-2"
+          :class="`${Icons.GitHub} socialLink p-mr-2`"
         />
         <a href="https://stackoverflow.com/users/15234817/mezdelex">
           <font-awesome-icon
-            icon="fa-brands fa-stack-overflow"
+            :icon="Icons.StackOverflow"
             class="socialLink custom-social-icon p-mr-2"
           />
         </a>
         <a
           href="https://www.linkedin.com/in/mezdelex/"
-          class="pi pi-linkedin socialLink p-mr-2"
+          :class="`${Icons.LinkedIn} socialLink p-mr-2`"
         />
         <a
           href="https://www.reddit.com/user/Mezdelex"
-          class="pi pi-reddit socialLink p-mr-2"
+          :class="`${Icons.Reddit} socialLink p-mr-2`"
         />
-        <a href="https://t.me/mezdelex" class="pi pi-telegram socialLink" />
+        <a
+          href="https://t.me/mezdelex"
+          :class="`${Icons.Telegram} socialLink`"
+        />
       </div>
     </div>
   </div>
@@ -67,9 +70,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, Ref, onMounted } from "vue";
 import RightSidebar from "@/components/RightSidebar.vue";
+import { Icons } from "@/enums/enums";
 import { gitHubService } from "@/services/github/gitHubService";
+import { ref, Ref, onMounted } from "vue";
 import { repositoriesStore } from "@/shared/repositoriesStore";
 
 const showSidebar: Ref<boolean> = ref(false);

@@ -1,8 +1,10 @@
+import { Activity, Icons } from "@/enums/enums";
+
 export default interface ITimeline {
-  icon: string;
+  icon: Icons;
   title: string;
   date: string;
-  activity: string;
+  activity: Activity;
   where: string;
   stack: string;
   tasks: Array<string>;
