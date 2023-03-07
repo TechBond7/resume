@@ -9,7 +9,7 @@ export const timelineData: Array<ITimeline> = [
     activity: Activity.Development,
     where: "https://kpmg.com/",
     stack:
-      ".NET 6+, .NET MAUI, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, WPF, Razor, Blazor, XAML, Xamarin.Forms, Docker, YAML, Javascript, Typescript, jQuery, MSSQL, DBeaver, Visual Studio, Neovim, Git, Azure DevOps, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel...",
+      ".NET 6+, .NET MAUI, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Razor, Blazor, XAML, WPF, UWP, Xamarin.Forms, Docker, YAML, Javascript, Typescript, jQuery, MSSQL, DBeaver, Visual Studio, Neovim, Git, Azure DevOps, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel...",
     tasks: ["Pending..."],
   },
   {
@@ -35,7 +35,7 @@ export const timelineData: Array<ITimeline> = [
     activity: Activity.Development,
     where: "https://ibermatica.com/",
     stack:
-      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, PowerShell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
+      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, MSSQL, SSMS, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
     tasks: [
       "1. Restructured the already created code first DB schema with the addition of required and missing tables based on the client requirements.",
       "2. Rewrote many parts and added others to the already created .NET MVC RESTful API.",
