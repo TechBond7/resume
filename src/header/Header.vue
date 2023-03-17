@@ -52,11 +52,15 @@
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/mezdelex/"
+          href="https://linkedin.com/in/mezdelex/"
           :class="`${Icons.LinkedIn} socialLink p-mr-2`"
         />
         <a
-          href="https://www.reddit.com/user/Mezdelex"
+          href="https://instagram.com/mezdelex"
+          :class="`${Icons.Instagram} socialLink p-mr-2`"
+        />
+        <a
+          href="https://reddit.com/user/Mezdelex"
           :class="`${Icons.Reddit} socialLink p-mr-2`"
         />
         <a
