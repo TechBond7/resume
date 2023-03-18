@@ -44,8 +44,12 @@
         <a
           href="https://github.com/mezdelex"
           :class="`${Icons.GitHub} socialLink p-mr-2`"
+          target="_blank"
         />
-        <a href="https://stackoverflow.com/users/15234817/mezdelex">
+        <a
+          href="https://stackoverflow.com/users/15234817/mezdelex"
+          target="_blank"
+        >
           <font-awesome-icon
             :icon="Icons.StackOverflow"
             class="socialLink custom-social-icon p-mr-2"
@@ -54,18 +58,22 @@
         <a
           href="https://linkedin.com/in/mezdelex/"
           :class="`${Icons.LinkedIn} socialLink p-mr-2`"
+          target="_blank"
         />
         <a
           href="https://instagram.com/mezdelex"
           :class="`${Icons.Instagram} socialLink p-mr-2`"
+          target="_blank"
         />
         <a
           href="https://reddit.com/user/Mezdelex"
           :class="`${Icons.Reddit} socialLink p-mr-2`"
+          target="_blank"
         />
         <a
           href="https://t.me/mezdelex"
           :class="`${Icons.Telegram} socialLink`"
+          target="_blank"
         />
       </div>
     </div>
