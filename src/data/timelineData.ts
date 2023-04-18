@@ -9,13 +9,13 @@ export const timelineData: Array<ITimeline> = [
     activity: Activity.Development,
     where: "https://kpmg.com/",
     stack:
-      ".NET 6+, .NET MAUI, EF Core 6+ (Code/Model First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Razor, Blazor, XAML, WPF, UWP, Xamarin.Forms, Docker, YAML, Selenium, Javascript, Typescript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio, Neovim, Git, Azure DevOps, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel...",
+      ".NET 6+, .NET MAUI, EF Core 6+ (Code/Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Selenium, Razor, Blazor, XAML, WPF, UWP, Xamarin.Forms, Docker, YAML, Javascript, Typescript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Git, Azure DevOps, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work...",
     tasks: [
       "1. Tasks related to the development of the company's own applications and platforms.",
       "2. Bug fixing of the aforementioned applications and platforms.",
       "3. Azure DevOps pipeline workflows.",
-      "4. Pull request management.",
-      "5. Code coverage with unit tests.",
+      "4. Headless Selenium tests and xUnit tests automation.",
+      "5. Pull request management.",
       "6. Agile development.",
     ],
   },
