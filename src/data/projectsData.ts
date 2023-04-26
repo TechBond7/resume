@@ -4,7 +4,7 @@ export const projectsData: Array<IProject> = [
   {
     id: "NeovimConfig",
     pushed_at: "",
-    name: "Neovim (Discontinued)",
+    name: "Neovim",
     image: require("@/assets/neovim.png"),
     repo: "https://github.com/mezdelex/NeovimConfig",
     app: "https://neovim.io/",
