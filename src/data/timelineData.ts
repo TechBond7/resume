@@ -11,12 +11,13 @@ export const timelineData: Array<ITimeline> = [
     stack:
       ".NET 6+, EF Core 6+ (Code/Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, Blazor, XAML, WPF, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, Typescript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern, CQRS Pattern...",
     tasks: [
-      "1. Tasks related to the development of the company's own applications and platforms.",
-      "2. Bug fixing of the aforementioned applications and platforms.",
-      "3. Azure DevOps pipeline workflows.",
-      "4. Headless Selenium tests and xUnit tests automation.",
-      "5. Pull request management.",
-      "6. Agile development.",
+      "1. Web application development.",
+      "2. Mobile application development.",
+      "3. Bug fixing.",
+      "4. Azure DevOps pipeline workflows.",
+      "5. Headless Selenium tests and xUnit tests automation.",
+      "6. Pull request management.",
+      "7. Agile development.",
     ],
   },
   {
