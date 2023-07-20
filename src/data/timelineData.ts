@@ -5,11 +5,11 @@ export const timelineData: Array<ITimeline> = [
   {
     icon: Icons.Code,
     title: "KPMG",
-    date: "2023-Present",
+    date: "2023-2023",
     activity: Activity.Development,
     where: "https://kpmg.com/",
     stack:
-      ".NET 6+, EF Core 6+ (Code/Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, Blazor, XAML, WPF, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, Typescript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern, CQRS Pattern...",
+      ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern, CQRS Pattern...",
     tasks: [
       "1. Web applications development.",
       "2. Mobile applications development.",
