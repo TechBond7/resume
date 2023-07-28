@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
   {
+    id: "WindowsTerminalPowerShellCoreConfig",
+    pushed_at: "",
+    name: "Windows Terminal",
+    image: require("@/assets/wtpwsh.png"),
+    repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
+    app: "https://learn.microsoft.com/en-us/windows/terminal/",
+    description:
+      "Windows Terminal config using Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
+  },
+  {
     id: "NeovimConfig",
     pushed_at: "",
     name: "Neovim",
