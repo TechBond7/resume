@@ -119,7 +119,7 @@ export const projectsData: Array<IProject> = [
     repo: "https://github.com/mezdelex/HackerRank",
     app: "https://www.hackerrank.com/alexcondegomez",
     description:
-      "Algorithmic problem solving to achieve Java's JDK 11+ language proficiency in both imperative and declarative paradigms. Coded with VSCode.",
+      "HackerRank exercises to keep algorithmic problem solving fresh and improve my expertise with Java's JDK 11+ declarative and imperative syntax and to learn functional programming paradigm using Haskell. Coded with VSCode.",
   },
   {
     id: "Trivia",
