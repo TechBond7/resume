@@ -34,14 +34,16 @@
             <div class="social">
                 <a href="https://github.com/mezdelex" :class="`${Icons.GitHub} socialLink p-mr-2`" target="_blank" />
                 <a href="https://stackoverflow.com/users/15234817/mezdelex" target="_blank">
-                    <font-awesome-icon :icon="Icons.StackOverflow" class="socialLink custom-social-icon p-mr-2" />
+                    <font-awesome-icon :icon="Icons.StackOverflow"
+                        class="socialLink custom-social-icon custom-social-icon-stackoverflow p-mr-2" />
                 </a>
                 <a href="https://linkedin.com/in/mezdelex/" :class="`${Icons.LinkedIn} socialLink p-mr-2`"
                     target="_blank" />
                 <a href="https://reddit.com/user/Mezdelex" :class="`${Icons.Reddit} socialLink p-mr-2`" target="_blank" />
                 <a href="https://instagram.com/mezdelex" :class="`${Icons.Instagram} socialLink p-mr-2`" target="_blank" />
                 <a href="https://twitch.tv/mezdelex" target="_blank">
-                    <font-awesome-icon :icon="Icons.Twitch" class="socialLink custom-social-icon p-mr-2" />
+                    <font-awesome-icon :icon="Icons.Twitch"
+                        class="socialLink custom-social-icon custom-social-icon-twitch p-mr-2" />
                 </a>
                 <a href="https://t.me/mezdelex" :class="`${Icons.Telegram} socialLink`" target="_blank" />
             </div>
@@ -140,12 +142,20 @@ onMounted(async () => {
 }
 
 .custom-social-icon {
-    height: 1.6rem;
-    width: 1.6rem;
     background-color: var(--primary-text);
-    color: var(--quaternary-text);
     border-radius: 50%;
+    color: var(--quaternary-text);
     padding: 0.3rem;
+    width: 1.601rem;
+}
+
+.custom-social-icon-stackoverflow {
+    height: 1.588rem;
+}
+
+.custom-social-icon-twitch {
+    height: 1.388rem;
+    padding-top: 0.5rem;
 }
 
 .custom-social-icon:hover {
