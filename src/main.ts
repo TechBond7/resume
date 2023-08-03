@@ -11,8 +11,8 @@ import AccordionTab from "primevue/accordiontab";
 import Button from "primevue/button";
 import ScrollTop from "primevue/scrolltop";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faList, faFolder } from "@fortawesome/free-solid-svg-icons";
-import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
+import { faFolder, faList } from "@fortawesome/free-solid-svg-icons";
+import { faStackOverflow, faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import "primevue/resources/themes/luna-amber/theme.css";
@@ -21,20 +21,20 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 import "animate.css";
 
-library.add(faList, faFolder, faStackOverflow);
+library.add(faFolder, faList, faStackOverflow, faTwitch);
 
 createApp(App)
-  .use(router)
-  .use(PrimeVue, {
-    ripple: true,
-  })
-  .component("Timeline", Timeline)
-  .component("Card", Card)
-  .component("Sidebar", Sidebar)
-  .component("Fieldset", Fieldset)
-  .component("Accordion", Accordion)
-  .component("AccordionTab", AccordionTab)
-  .component("Button", Button)
-  .component("ScrollTop", ScrollTop)
-  .component("font-awesome-icon", FontAwesomeIcon)
-  .mount("#app");
+    .use(router)
+    .use(PrimeVue, {
+        ripple: true,
+    })
+    .component("Timeline", Timeline)
+    .component("Card", Card)
+    .component("Sidebar", Sidebar)
+    .component("Fieldset", Fieldset)
+    .component("Accordion", Accordion)
+    .component("AccordionTab", AccordionTab)
+    .component("Button", Button)
+    .component("ScrollTop", ScrollTop)
+    .component("font-awesome-icon", FontAwesomeIcon)
+    .mount("#app");
