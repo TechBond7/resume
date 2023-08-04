@@ -4,15 +4,13 @@
         <ul class="custom-link-wrapper">
             <li class="custom-list-item">
                 <router-link :to="'/'">
-                    <font-awesome-icon icon="fa-solid fa-list" class="custom-timeline">
-                    </font-awesome-icon>
+                    <font-awesome-icon icon="fa-solid fa-list" class="custom-timeline"></font-awesome-icon>
                     Timeline
                 </router-link>
             </li>
             <li class="custom-list-item">
                 <router-link :to="'/projects'">
-                    <font-awesome-icon icon="fa-solid fa-folder" class="custom-projects">
-                    </font-awesome-icon>
+                    <font-awesome-icon icon="fa-solid fa-folder" class="custom-projects"></font-awesome-icon>
                     Projects
                 </router-link>
             </li>

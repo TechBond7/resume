@@ -5,9 +5,9 @@ export enum Activity {
 export enum Icons {
     Bars = "pi pi-bars",
     Box = "pi pi-box",
-    Briefcase = "pi pi-briefcase",
+    Briefcase = "fa-solid fa-briefcase",
     Cloud = "pi pi-cloud-upload",
-    Code = "pi pi-code",
+    Code = "fa-solid fa-code",
     GitHub = "pi pi-github",
     Instagram = "pi pi-instagram",
     Link = "pi pi-link",
@@ -15,5 +15,5 @@ export enum Icons {
     Reddit = "pi pi-reddit",
     StackOverflow = "fa-brands fa-stack-overflow",
     Telegram = "pi pi-telegram",
-    Twitch = "fa-brands fa-twitch",
+    Twitch = "fa-brands fa-twitch"
 }

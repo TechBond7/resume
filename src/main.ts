@@ -11,7 +11,7 @@ import AccordionTab from "primevue/accordiontab";
 import Button from "primevue/button";
 import ScrollTop from "primevue/scrolltop";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFolder, faList } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCode, faFolder, faList } from "@fortawesome/free-solid-svg-icons";
 import { faStackOverflow, faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -21,7 +21,7 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 import "animate.css";
 
-library.add(faFolder, faList, faStackOverflow, faTwitch);
+library.add(faBriefcase, faCode, faFolder, faList, faStackOverflow, faTwitch);
 
 createApp(App)
     .use(router)

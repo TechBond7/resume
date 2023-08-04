@@ -61,14 +61,13 @@ import Footer from "@/footer/Footer.vue";
 
 .custom-marker {
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     align-items: center;
     justify-content: center;
     color: var(--custom-blue);
-    border-radius: 1rem;
-    padding-left: 0.1rem;
-    padding-top: 0.1rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
     z-index: 1;
     background-color: var(--custom-background);
 }

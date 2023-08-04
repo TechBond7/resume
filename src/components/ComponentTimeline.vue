@@ -2,9 +2,7 @@
     <Timeline :value="timelineData" align="alternate">
         <template #marker="slotProps">
             <div class="animate__animated animate__faster animate__fadeInUp">
-                <span class="custom-marker p-shadow-5">
-                    <i :class="slotProps.item.icon"></i>
-                </span>
+                <font-awesome-icon :icon="slotProps.item.icon" class="custom-marker p-shadow-5"></font-awesome-icon>
             </div>
         </template>
         <template #content="slotProps">
