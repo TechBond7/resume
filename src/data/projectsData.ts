@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "VSCodeConfig",
+        pushed_at: "",
+        name: "Visual Studio Code",
+        image: require("@/assets/vscode.png"),
+        repo: "https://github.com/mezdelex/VSCodeConfig",
+        app: "https://code.visualstudio.com/",
+        description:
+            "Visual Studio Code config with custom Delugia font, VSCodeVim integration, various linters and formatters, custom editor appearance, modified editor behaviors, debugging options, custom keybindings..."
+    },
+    {
         id: "WindowsTerminalPowerShellCoreConfig",
         pushed_at: "",
         name: "Windows Terminal",
@@ -9,7 +19,7 @@ export const projectsData: Array<IProject> = [
         repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
         app: "https://learn.microsoft.com/en-us/windows/terminal/",
         description:
-            "Windows Terminal config using Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
+            "Windows Terminal config with custom Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
     },
     {
         id: "NeovimConfig",
