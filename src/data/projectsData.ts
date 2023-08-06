@@ -2,14 +2,22 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "Botchy",
+        pushed_at: "",
+        name: "Botchy",
+        image: require("@/assets/botchy.png"),
+        repo: "https://github.com/mezdelex/Botchy",
+        app: "https://discord.com/",
+        description: "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord."
+    },
+    {
         id: "VSCodeConfig",
         pushed_at: "",
         name: "Visual Studio Code",
         image: require("@/assets/vscode.png"),
         repo: "https://github.com/mezdelex/VSCodeConfig",
         app: "https://code.visualstudio.com/",
-        description:
-            "Visual Studio Code config with custom Delugia font, VSCodeVim integration, various linters and formatters, custom editor appearance, modified editor behaviors, debugging options, custom keybindings..."
+        description: "Visual Studio Code config with custom Delugia font, VSCodeVim integration, various linters and formatters, custom editor appearance, modified editor behaviors, debugging options, custom keybindings..."
     },
     {
         id: "WindowsTerminalPowerShellCoreConfig",
@@ -18,8 +26,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/wtpwsh.png"),
         repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
         app: "https://learn.microsoft.com/en-us/windows/terminal/",
-        description:
-            "Windows Terminal config with custom Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
+        description: "Windows Terminal config with custom Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
     },
     {
         id: "NeovimConfig",
@@ -28,8 +35,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/neovim.png"),
         repo: "https://github.com/mezdelex/NeovimConfig",
         app: "https://neovim.io/",
-        description:
-            "Fully functional daily driver Neovim config with LSP support, auto language server installation, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
+        description: "Fully functional daily driver Neovim config with LSP support, auto language server installation, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
     },
     {
         id: "AoC2022",
@@ -38,8 +44,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/aoc2022.png"),
         repo: "https://github.com/mezdelex/AoC2022",
         app: "https://adventofcode.com/2022",
-        description:
-            "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, Lambdas and Expression-Bodied members. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with VSCode.",
+        description: "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, Lambdas and Expression-Bodied members. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with VSCode.",
     },
     {
         id: "",
@@ -48,8 +53,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/monkeytype.png"),
         repo: "https://github.com/monkeytypegame/monkeytype",
         app: "https://monkeytype.com/",
-        description:
-            "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 120 WPM with 100% accuracy & 86% consistency @ monkeytype 15s typing test.",
+        description: "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 120 WPM with 100% accuracy & 86% consistency @ monkeytype 15s typing test.",
     },
     {
         id: "Calculator",
@@ -58,8 +62,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/calculator.png"),
         repo: "https://github.com/mezdelex/Calculator",
         app: "https://calculator-mezdelex.netlify.app",
-        description:
-            "A small project done with React 18 using hooks, functional components, context, context provider, props destructuring, children reserved word and kind of higher order component-ish approach to be able to reuse hook logic. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode.",
+        description: "A small project done with React 18 using hooks, functional components, context, context provider, props destructuring, children reserved word and kind of higher order component-ish approach to be able to reuse hook logic. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode.",
     },
     {
         id: "LeetCode",
@@ -68,8 +71,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/leetcode.png"),
         repo: "https://github.com/mezdelex/LeetCode",
         app: "https://leetcode.com/mezdelex",
-        description:
-            "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with VSCode.",
+        description: "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with VSCode.",
     },
     {
         id: "Resume",
@@ -78,8 +80,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/resume.png"),
         repo: "https://github.com/mezdelex/Resume",
         app: "https://www.mezdelex.com",
-        description:
-            "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with VSCode.",
+        description: "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with VSCode.",
     },
     {
         id: "Concesionario-SPA",
@@ -88,8 +89,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/concesionario.jpg"),
         repo: "https://github.com/mezdelex/Concesionario-SPA",
         app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex",
-        description:
-            "Technical test using Spring Boot 2.4.5, Vue 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with  VSCode. The project was not deployed anywhere so the link it's a YouTube demo.",
+        description: "Technical test using Spring Boot 2.4.5, Vue 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with  VSCode. The project was not deployed anywhere so the link it's a YouTube demo.",
     },
     {
         id: "Recetario-SPA",
@@ -98,8 +98,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/recetario.jpg"),
         repo: "https://github.com/mezdelex/Recetario-SPA",
         app: "https://spa-recetario.netlify.app",
-        description:
-            "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+        description: "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
     },
     {
         id: "Recetario-RESTful-API",
@@ -108,8 +107,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/recetario2.jpg"),
         repo: "https://github.com/mezdelex/Recetario-RESTful-API",
         app: "https://db-recetario.herokuapp.com/api/plato",
-        description:
-            "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, dockerfile, docker-compose, YAML formatting, etc. MySQL DB is hosted by Heroku's JawsDB service. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+        description: "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, dockerfile, docker-compose, YAML formatting, etc. MySQL DB is hosted by Heroku's JawsDB service. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
     },
     {
         id: "AoC2020",
@@ -118,8 +116,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/aoc2020.png"),
         repo: "https://github.com/mezdelex/AoC2020",
         app: "https://adventofcode.com/2020",
-        description:
-            "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Coded with VSCode.",
+        description: "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Coded with VSCode.",
     },
     {
         id: "HackerRank",
@@ -128,8 +125,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/hackerrank.png"),
         repo: "https://github.com/mezdelex/HackerRank",
         app: "https://www.hackerrank.com/alexcondegomez",
-        description:
-            "HackerRank exercises to keep algorithmic problem solving fresh and improve my expertise with Java's JDK 11+ declarative and imperative syntax and to learn functional programming paradigm using Haskell. Coded with VSCode.",
+        description: "HackerRank exercises to keep algorithmic problem solving fresh and improve my expertise with Java's JDK 11+ declarative and imperative syntax and to learn functional programming paradigm using Haskell. Coded with VSCode.",
     },
     {
         id: "Trivia",
@@ -138,7 +134,6 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/trivia.jpg"),
         repo: "https://github.com/mezdelex/Trivia",
         app: "https://mezdelex.github.io/Trivia/trivial_main.html",
-        description:
-            "My first Web App back in 2020 done with Javascript, HTML, CSS and Bootstrap consuming an external Trivia API that required token authorization to be accessed. Coded with VSCode.",
+        description: "My first Web App back in 2020 done with Javascript, HTML, CSS and Bootstrap consuming an external Trivia API that required token authorization to be accessed. Coded with VSCode.",
     },
 ];
