@@ -40,6 +40,8 @@ import Footer from "@/footer/Footer.vue";
 
 .p-card {
     border-radius: 1rem;
+    height: 37rem;
+    width: 24rem;
 }
 
 .p-card .p-card-body {
@@ -70,7 +72,13 @@ import Footer from "@/footer/Footer.vue";
 }
 
 .img-field {
+    height: 13rem;
     margin-top: 0.4rem;
+    width: 24rem;
+}
+
+.description-field {
+    height: 13rem;
 }
 
 .text-small {

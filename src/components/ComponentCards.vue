@@ -1,7 +1,6 @@
 <template>
     <div class="p-grid">
-        <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
-            style="width: 25rem; height: 36rem" v-for="project in projectsStore.projects" :key="project.name">
+        <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp" v-for="project in projectsStore.projects" :key="project.name">
             <template #header>
                 <span class="last-update">
                     Last update: <i :class="`${Icons.Cloud} text-small`"></i>
@@ -10,14 +9,14 @@
                     }}
                 </span>
                 <a :href="project.app" target="_">
-                    <img class="cardHover img-field" :src="project.image" style="height: 13rem" :alt="project.name" />
+                    <img class="cardHover img-field" :src="project.image" :alt="project.name" />
                 </a>
             </template>
             <template #title>
                 {{ project.name }}
             </template>
             <template #content>
-                <div style="height: 12rem">
+                <div class="description-field">
                     {{ project.description }}
                 </div>
             </template>

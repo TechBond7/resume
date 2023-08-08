@@ -93,7 +93,8 @@ import Footer from "@/footer/Footer.vue";
     }
 
     .p-timeline-event-opposite {
-        flex: 0;
+        flex: 0 !important;
+        padding: 0 !important;
     }
 }
 </style>
