@@ -11,8 +11,10 @@ export const gitHubService: IGitHubService = {
         .catch(error => console.log(error)),
     getUpdatedRepo: () => {
         if (repositoriesStore.repos.length)
-            repositoriesStore.repo = repositoriesStore.repos.reduce((current, next) =>
-                new Date(current.pushed_at) > new Date(next.pushed_at) ? current : next, repositoriesStore.repos[0]).name;
+            repositoriesStore.repo = repositoriesStore.repos
+                .reduce((current, next) => new Date(current.pushed_at) > new Date(next.pushed_at)
+                    ? current
+                    : next, repositoriesStore.repos[0]).name;
     },
     getLastCommit: () => {
         if (repositoriesStore.repos.length)

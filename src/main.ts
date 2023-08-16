@@ -24,9 +24,7 @@ import "primevue/resources/themes/luna-amber/theme.css";
 library.add(faBriefcase, faCode, faFolder, faList, faStackOverflow, faTwitch);
 
 createApp(App)
-    .use(PrimeVue, {
-        ripple: true,
-    })
+    .use(PrimeVue, { ripple: true, })
     .use(router)
     .component("Accordion", Accordion)
     .component("AccordionTab", AccordionTab)

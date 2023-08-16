@@ -8,7 +8,9 @@ export const projectsService: IProjectsService = {
         if (repositoriesStore.repos.length)
             projectsStore.projects = projectsData.map(project => {
                 if (project.id !== "")
-                    project.pushed_at = repositoriesStore.repos.filter((repo) => repo.name === project.id)[0]?.pushed_at;
+                    project.pushed_at = repositoriesStore.repos
+                        .filter((repo) => repo.name === project.id)[0]?.pushed_at
+                        .toLocaleUpperCase()
 
                 return project;
             }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
