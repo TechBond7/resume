@@ -35,7 +35,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/neovim.png"),
         repo: "https://github.com/mezdelex/NeovimConfig",
         app: "https://neovim.io/",
-        description: "Fully functional daily driver Neovim config with LSP support, auto language server installation, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
+        description: "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
     },
     {
         id: "AoC2022",
