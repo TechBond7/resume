@@ -47,11 +47,10 @@
 import { Icons } from "@/enums/enums";
 import { timelineData } from "@/data/timelineData";
 
-let counter: number = 0;
+let counter = 0;
 
-const hasUrl: (value: string) => boolean = (value: string) =>
-    value.includes("https");
-const conditionalFade: () => string = () => {
+const hasUrl = (value: string) => value.includes("https");
+const conditionalFade = () => {
     return counter++ % 2 !== 0
         ? "animate__animated animate__faster animate__fadeInLeft"
         : "animate__animated animate__faster animate__fadeInRight";

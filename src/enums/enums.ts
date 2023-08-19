@@ -1,5 +1,5 @@
 export enum Activity {
-    Development = "Software development",
+    Development = "Software development"
 }
 
 export enum Icons {

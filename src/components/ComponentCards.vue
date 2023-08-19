@@ -1,12 +1,12 @@
 <template>
     <div class="p-grid">
-        <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp" v-for="project in projectsStore.projects" :key="project.name">
+        <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
+            v-for="project in projectsStore.projects" :key="project.name">
             <template #header>
                 <span class="last-update">
-                    Last update: <i :class="`${Icons.Cloud} text-small`"></i>
-                    {{
-                        project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown"
-                    }}
+                    Last update:
+                    <i :class="`${Icons.Cloud} text-small`"></i>
+                    {{ getLastUpdate(project) }}
                 </span>
                 <a :href="project.app" target="_">
                     <img class="cardHover img-field" :src="project.image" :alt="project.name" />
@@ -41,9 +41,12 @@
 </template>
 <script setup lang="ts">
 import { Icons } from "@/enums/enums";
+import IProject from "@/models/IProject";
 import { projectsService } from "@/services/projects/projectsService";
 import { projectsStore } from "@/shared/projectsStore";
 import { watchEffect } from "vue";
+
+const getLastUpdate = (project: IProject) => project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown"
 
 watchEffect(() => projectsService.sortProjects());
 </script>
