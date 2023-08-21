@@ -11,7 +11,7 @@ import Timeline from "primevue/timeline";
 import router from "@/router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createApp } from "vue";
-import { faBriefcase, faCode, faFolder, faList } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCamera, faCode, faGlobe, faFolder, faList } from "@fortawesome/free-solid-svg-icons";
 import { faStackOverflow, faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -21,7 +21,7 @@ import "primeicons/primeicons.css";
 import "primevue/resources/primevue.min.css";
 import "primevue/resources/themes/luna-amber/theme.css";
 
-library.add(faBriefcase, faCode, faFolder, faList, faStackOverflow, faTwitch);
+library.add(faBriefcase, faCamera, faCode, faGlobe, faFolder, faList, faStackOverflow, faTwitch);
 
 createApp(App)
     .use(PrimeVue, { ripple: true, })

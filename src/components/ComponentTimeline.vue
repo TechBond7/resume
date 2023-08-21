@@ -23,7 +23,7 @@
                             {{ slotProps.item.where }}
                         </li>
                     </ul>
-                    <Accordion>
+                    <Accordion v-if="slotProps.item.stack.length">
                         <AccordionTab header="Stack">
                             <p class="accordionText">
                                 {{ slotProps.item.stack }}
@@ -50,9 +50,7 @@ import { timelineData } from "@/data/timelineData";
 let counter = 0;
 
 const hasUrl = (value: string) => value.includes("https");
-const conditionalFade = () => {
-    return counter++ % 2 !== 0
-        ? "animate__animated animate__faster animate__fadeInLeft"
-        : "animate__animated animate__faster animate__fadeInRight";
-};
+const conditionalFade = () => counter++ % 2 !== 0
+    ? "animate__animated animate__faster animate__fadeInLeft"
+    : "animate__animated animate__faster animate__fadeInRight";
 </script>

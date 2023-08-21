@@ -1,15 +1,20 @@
 export enum Activity {
-    Development = "Software development"
+    Development = "Software development",
+    Electronics = "Electronics",
+    Photography = "Photography & graphic design",
+    Telecommunications = "Telecommunications"
 }
 
 export enum Icons {
     Bars = "pi pi-bars",
     Box = "pi pi-box",
     Briefcase = "fa-solid fa-briefcase",
+    Camera = "fa-solid  fa-camera",
     Cloud = "pi pi-cloud-upload",
     Code = "fa-solid fa-code",
     Folder = "fa-solid fa-folder",
     GitHub = "pi pi-github",
+    Globe = "fa-solid  fa-globe",
     Instagram = "pi pi-instagram",
     Link = "pi pi-link",
     LinkedIn = "pi pi-linkedin",
