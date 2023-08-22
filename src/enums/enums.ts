@@ -15,6 +15,7 @@ export enum Icons {
     Folder = "fa-solid fa-folder",
     GitHub = "pi pi-github",
     Globe = "fa-solid  fa-globe",
+    Image = "fa-solid fa-image",
     Instagram = "pi pi-instagram",
     Link = "pi pi-link",
     LinkedIn = "pi pi-linkedin",
