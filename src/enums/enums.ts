@@ -1,6 +1,5 @@
 export enum Activity {
     Development = "Software development",
-    Electronics = "Electronics",
     Photography = "Photography & graphic design",
     Telecommunications = "Telecommunications"
 }
@@ -15,13 +14,8 @@ export enum Icons {
     Folder = "fa-solid fa-folder",
     GitHub = "pi pi-github",
     Globe = "fa-solid  fa-globe",
-    Image = "fa-solid fa-image",
-    Instagram = "pi pi-instagram",
     Link = "pi pi-link",
     LinkedIn = "pi pi-linkedin",
     List = "fa-solid fa-list",
-    Reddit = "pi pi-reddit",
-    StackOverflow = "fa-brands fa-stack-overflow",
-    Telegram = "pi pi-telegram",
-    Twitch = "fa-brands fa-twitch"
+    StackOverflow = "fa-brands fa-stack-overflow"
 }

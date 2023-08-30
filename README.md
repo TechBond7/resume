@@ -1,3 +1,3 @@
 # Resume
 
-Vue 3 with Composition API + Typescript
+Vue 3 (Composition API + Script Setup) + Typescript

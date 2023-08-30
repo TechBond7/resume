@@ -4,7 +4,6 @@ import App from "@/App.vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
 import Fieldset from "primevue/fieldset";
-import Galleria from "primevue/galleria";
 import PrimeVue from "primevue/config";
 import ScrollTop from "primevue/scrolltop";
 import Sidebar from "primevue/sidebar";
@@ -13,7 +12,7 @@ import router from "@/router/router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createApp } from "vue";
 import { faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList } from "@fortawesome/free-solid-svg-icons";
-import { faStackOverflow, faTwitch } from "@fortawesome/free-brands-svg-icons";
+import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import "animate.css";
@@ -22,7 +21,7 @@ import "primeicons/primeicons.css";
 import "primevue/resources/primevue.min.css";
 import "primevue/resources/themes/luna-amber/theme.css";
 
-library.add(faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList, faStackOverflow, faTwitch);
+library.add(faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList, faStackOverflow);
 
 createApp(App)
     .use(PrimeVue, { ripple: true })
@@ -32,7 +31,6 @@ createApp(App)
     .component("Button", Button)
     .component("Card", Card)
     .component("Fieldset", Fieldset)
-    .component("Galleria", Galleria)
     .component("ScrollTop", ScrollTop)
     .component("Sidebar", Sidebar)
     .component("Timeline", Timeline)

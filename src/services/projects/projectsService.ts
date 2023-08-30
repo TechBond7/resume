@@ -10,11 +10,11 @@ export const projectsService: IProjectsService = {
                 if (project.id !== "")
                     project.pushed_at = repositoriesStore.repos
                         .filter((repo) => repo.name === project.id)[0]?.pushed_at
-                        .toLocaleUpperCase()
+                        .toUpperCase();
 
                 return project;
             }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
         else
             projectsStore.projects = projectsData;
-    },
+    }
 };

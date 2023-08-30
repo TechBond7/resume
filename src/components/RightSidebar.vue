@@ -14,12 +14,6 @@
                     Projects
                 </router-link>
             </li>
-            <li class="custom-list-item">
-                <router-link to="/gallery">
-                    <font-awesome-icon :icon="Icons.Image" class="custom-gallery"></font-awesome-icon>
-                    Gallery
-                </router-link>
-            </li>
         </ul>
     </Sidebar>
 </template>
@@ -46,7 +40,6 @@ defineProps({ isVisible: Boolean });
     margin: 0.75rem 2rem 0.75rem 2rem;
 }
 
-.custom-gallery,
 .custom-projects,
 .custom-timeline {
     font-size: larger;

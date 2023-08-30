@@ -39,9 +39,10 @@
         </Card>
     </div>
 </template>
+
 <script setup lang="ts">
-import { Icons } from "@/enums/enums";
 import IProject from "@/models/IProject";
+import { Icons } from "@/enums/enums";
 import { projectsService } from "@/services/projects/projectsService";
 import { projectsStore } from "@/shared/projectsStore";
 import { watchEffect } from "vue";

@@ -26,5 +26,5 @@ export const gitHubService: IGitHubService = {
                     repositoriesStore.sha = data[0].sha;
                     repositoriesStore.link = `https://github.com/mezdelex/${repositoriesStore.repo}/commit/${repositoriesStore.sha}`;
                 }).catch((error) => console.log(error));
-    },
+    }
 };

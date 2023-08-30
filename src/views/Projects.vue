@@ -5,9 +5,9 @@
 </template>
 
 <script setup lang="ts">
-import Header from "@/header/Header.vue";
 import ComponentCards from "@/components/ComponentCards.vue";
 import Footer from "@/footer/Footer.vue";
+import Header from "@/header/Header.vue";
 </script>
 
 <style>

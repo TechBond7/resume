@@ -2,16 +2,12 @@ import { createRouter, createWebHashHistory, Router, RouteRecordRaw } from "vue-
 
 const routes: Array<RouteRecordRaw> = [
     {
-        path: "/",
         component: () => import("@/views/Timeline.vue"),
+        path: "/"
     },
     {
-        path: "/projects",
         component: () => import("@/views/Projects.vue"),
-    },
-    {
-        path: "/gallery",
-        component: () => import("@/views/Gallery.vue"),
+        path: "/projects"
     }
 ];
 
