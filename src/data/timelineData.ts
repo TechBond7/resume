@@ -1,11 +1,11 @@
 import ITimeline from "@/models/ITimeline";
-import { Activity, Icons } from "@/enums/enums";
+import { Activity, Icons, Reasons } from "@/enums/enums";
 
 export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
         title: "KPMG",
-        date: "2023-2023",
+        date: `2023-2023 ${Reasons.Resign}`,
         activity: Activity.Development,
         where: "https://kpmg.com/",
         stack: ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern, CQRS Pattern...",
@@ -22,7 +22,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
         title: "SmartWay Studio",
-        date: "2022-2023",
+        date: `2022-2023 ${Reasons.Resign}`,
         activity: Activity.Development,
         where: "https://smartwaystudio.com/",
         stack: ".NET 6+, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Hangfire, Redis, Docker, Kubernetes, YAML, Vue 3 (Composition API), Typescript, Vite, PrimeVue 3, Pinia, MySQL, Oracle, DBeaver, Neovim, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
@@ -37,7 +37,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
         title: "Ibermática",
-        date: "2022-2022 ",
+        date: `2022-2022 ${Reasons.Change}`,
         activity: Activity.Development,
         where: "https://ibermatica.com/",
         stack: ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, SQL Server, SQL Server Management Studio, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
@@ -53,7 +53,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
         title: "D&A Innovative Systems",
-        date: "2021-2022",
+        date: `2021-2022 ${Reasons.End}`,
         activity: Activity.Development,
         where: "https://innovative-systems.es/",
         stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, MariaDB, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, CQRS, Clean Architecture, Markdown, Holded, Bug Fixing, Time & Task Management...",
@@ -85,7 +85,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Globe,
         title: "Galitek S.L.",
-        date: "2018-2019",
+        date: `2018-2019 ${Reasons.Resign}`,
         activity: Activity.Telecommunications,
         where: "Galitek S.L.",
         stack: "",
@@ -100,7 +100,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Globe,
         title: "Fibrabide S.L.",
-        date: "2015-2018",
+        date: `2015-2018 ${Reasons.Change}`,
         activity: Activity.Telecommunications,
         where: "Fibrabide S.L.",
         stack: "",
@@ -114,7 +114,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Camera,
         title: "Freelance photographer",
-        date: "2014-2016",
+        date: `2014-2016 ${Reasons.Change}`,
         activity: Activity.Photography,
         where: "Demez Photo",
         stack: "Photoshop, Illustrator, Lightroom, Bridge, Camera Raw, Joomla CMS...",
@@ -131,7 +131,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Camera,
         title: "Prixma Digital",
-        date: "2010-2014",
+        date: `2010-2014 ${Reasons.Resign}`,
         activity: Activity.Photography,
         where: "https://prixmadigital.com/",
         stack: "Photoshop, Illustrator, Lightroom, Bridge, Camera Raw...",
@@ -147,7 +147,7 @@ export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Globe,
         title: "Dominion Global",
-        date: "2008-2009",
+        date: `2008-2009 ${Reasons.End}`,
         activity: Activity.Telecommunications,
         where: "https://dominion-global.com/",
         stack: "",

@@ -19,3 +19,9 @@ export enum Icons {
     List = "fa-solid fa-list",
     StackOverflow = "fa-brands fa-stack-overflow"
 }
+
+export enum Reasons {
+    Change = "(job change)",
+    End = "(end of contract)",
+    Resign = "(resign)"
+}
