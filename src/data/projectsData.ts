@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "TodoApp",
+        pushed_at: "",
+        name: "TodoApp API",
+        image: require("@/assets/todoapp.png"),
+        repo: "https://github.com/mezdelex/TodoApp",
+        app: "https://docs.gofiber.io/",
+        description: "RESTful API still in development to learn Go using Fiber framework following Clean Architecture principles with Domain Driven Design in mind, GORM as ORM with automigrations and code first schema definition, PostgreSQL as database and GitHub Projects as task and time management platform. Coded with Neovim."
+    },
+    {
         id: "Botchy",
         pushed_at: "",
         name: "Botchy",
