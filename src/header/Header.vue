@@ -33,11 +33,14 @@
             </h3>
             <div class="social">
                 <a href="https://github.com/mezdelex" :class="`${Icons.GitHub} socialLink p-mr-2`" target="_blank" />
+                <a href="https://stackoverflow.com/users/15234817/mezdelex" target="_blank">
+                    <font-awesome-icon :icon="Icons.StackOverflow" class="socialLink custom-social-icon p-mr-2" />
+                </a>
                 <a href="https://linkedin.com/in/mezdelex/" :class="`${Icons.LinkedIn} socialLink p-mr-2`"
                     target="_blank" />
-                <a href="https://stackoverflow.com/users/15234817/mezdelex" target="_blank">
-                    <font-awesome-icon :icon="Icons.StackOverflow"
-                        class="socialLink custom-social-icon custom-social-icon-stackoverflow p-mr-2" />
+                <a href="https://reddit.com/user/Mezdelex" :class="`${Icons.Reddit} socialLink p-mr-2`" target="_blank" />
+                <a href="https://www.twitch.tv/mezdelex" target="_blank">
+                    <font-awesome-icon :icon="Icons.Twitch" class="socialLink custom-social-icon" />
                 </a>
             </div>
         </div>
@@ -138,12 +141,9 @@ onMounted(async () => {
     background-color: var(--primary-text);
     border-radius: 50%;
     color: var(--quaternary-text);
+    height: 1.588rem;
     padding: 0.3rem;
     width: 1.601rem;
-}
-
-.custom-social-icon-stackoverflow {
-    height: 1.588rem;
 }
 
 .custom-social-icon:hover {
@@ -151,12 +151,12 @@ onMounted(async () => {
 }
 
 .socialLink {
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
+    transition: transform 0.2s ease;
+    transform: scale3d(1, 1, 1)
 }
 
 .socialLink:hover {
-    transform: translateY(-10px);
+    transform: scale3d(1.3, 1.3, 1.3)
 }
 
 .social {

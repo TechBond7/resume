@@ -12,7 +12,7 @@ import router from "@/router/router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createApp } from "vue";
 import { faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList } from "@fortawesome/free-solid-svg-icons";
-import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
+import { faStackOverflow, faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import "animate.css";
@@ -21,7 +21,7 @@ import "primeicons/primeicons.css";
 import "primevue/resources/primevue.min.css";
 import "primevue/resources/themes/luna-amber/theme.css";
 
-library.add(faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList, faStackOverflow);
+library.add(faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList, faStackOverflow, faTwitch);
 
 createApp(App)
     .use(PrimeVue, { ripple: true })
